@@ -18,12 +18,11 @@
 	user-select:none;
 	position:relative;
 	overflow:hidden;
-	margin-bottom:-100px
 	}
 .cover-wrapper .cover-backstretch,.cover-wrapper .cover-bg{
 	position:absolute;
 	width:100%;
-	height:100%;
+	height:50%;
 	background-position:center;
 	background-size:cover
 }
@@ -64,7 +63,6 @@
 	min-height:400px;
 	height:calc(36vh - 56px + 200px)
 }
-.cover-wrapper .cover-body{margin-top:56px;margin-bottom:100px;}
 .cover-wrapper .cover-body,.cover-wrapper .cover-body .bottom,.cover-wrapper .cover-body .top{display:flex;flex-direction:column;align-items:center;max-width:100%;}
 .cover-wrapper .cover-body .bottom{margin-top:32px}
 .cover-wrapper .list-h{
