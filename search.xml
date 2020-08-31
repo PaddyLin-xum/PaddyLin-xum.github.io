@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>8月24日GET</title>
-    <url>/post/f31d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><center><p style="font-size:30px">今天分享一下我get到的新技能</p></center>
-- 学会了用磁贴管理电脑桌面，让电脑看起来更加简洁，参照方法来源：
- <a href="https://www.zhihu.com/question/358547747/answer/1230574638" class="LinkCard"></a>
-
-<ul>
-<li><p>腾讯，爱奇艺，优酷vip视频免费看（使用插件<a href="https://wws.lanzous.com/iuMROdbop7a">我要看VIP视频</a>）</p>
-</li>
-<li><p>IDM+油猴高速下载百度网盘资源</p>
-</li>
-<li><p>FDM代替迅雷下载</p>
-</li>
-<li><p>网易云音乐，虾米音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，哔哩哔哩聚合软件<code>Listen1</code>(也有插件)<br><a href="https://github.com/listen1/listen1_chrome_extension" class="LinkCard">Listen1</a></p>
-</li>
-<li><p>各平台VIP视频聚合软件<code>ZY Player</code>，有些时候比较慢<br><a href="https://github.com/Hunlongyu/ZY-Player/" class="LinkCard">ZY Player</a></p>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>Butterfly加载动画修改</title>
     <url>/post/4f69.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p style="font-size:25px">🐰添加配置文件</p>
@@ -50,6 +29,27 @@
 <p>改为</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">preloader:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">layout:</span> <span class="string">gear</span> <span class="comment"># gear, spinner-box 两种样式</span></span><br></pre></td></tr></table></figure>
 
+]]></content>
+  </entry>
+  <entry>
+    <title>8月24日GET</title>
+    <url>/post/f31d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><center><p style="font-size:30px">今天分享一下我get到的新技能</p></center>
+- 学会了用磁贴管理电脑桌面，让电脑看起来更加简洁，参照方法来源：
+ <a href="https://www.zhihu.com/question/358547747/answer/1230574638" class="LinkCard"></a>
+
+<ul>
+<li><p>腾讯，爱奇艺，优酷vip视频免费看（使用插件<a href="https://wws.lanzous.com/iuMROdbop7a">我要看VIP视频</a>）</p>
+</li>
+<li><p>IDM+油猴高速下载百度网盘资源</p>
+</li>
+<li><p>FDM代替迅雷下载</p>
+</li>
+<li><p>网易云音乐，虾米音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，哔哩哔哩聚合软件<code>Listen1</code>(也有插件)<br><a href="https://github.com/listen1/listen1_chrome_extension" class="LinkCard">Listen1</a></p>
+</li>
+<li><p>各平台VIP视频聚合软件<code>ZY Player</code>，有些时候比较慢<br><a href="https://github.com/Hunlongyu/ZY-Player/" class="LinkCard">ZY Player</a></p>
+</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
@@ -401,17 +401,6 @@
       </tags>
   </entry>
   <entry>
-    <title>爬虫第一课</title>
-    <url>/post/2f13.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>RSS订阅</title>
     <url>/post/9065.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
@@ -443,35 +432,6 @@
     <url>/post/158f.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="我的博客诞生了"><a href="#我的博客诞生了" class="headerlink" title="我的博客诞生了"></a>我的博客诞生了</h2><p>纪念我在2020年7月4日开始接触hexo和github，并学习了搭建博客</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Butterfly主题美化之加时钟</title>
-    <url>/post/13d4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="时钟一"><a href="#时钟一" class="headerlink" title="时钟一"></a>时钟一</h2><p>效果图：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200809205035932.gif#pic_center" alt="在这里插入图片描述"></p>
-<ul>
-<li>首先我们下载这两个文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/snap.svg-min.js">snap.svg-min.js</a> 和<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/clock.js">clock.js</a>)，并把它们放到主题目录下的<code>source/js</code>中</li>
-<li>再下载此文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/index.html">index.html</a>)放在目录<code>\themes\butterfly\layout\includes\widget</code>下</li>
-<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下建立文件<code>card_per.pug</code>，内容如下</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-aper</span><br><span class="line">  .card-content</span><br><span class="line">    .item-headline</span><br><span class="line">      i.fas.fa-clock-o</span><br><span class="line">      span&#x3D; _p(&#39;aside.card_per&#39;)</span><br><span class="line">      include index.html</span><br></pre></td></tr></table></figure>
-<ul>
-<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下找到<code>index.pug</code>并在自己想要的位置添加代码</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_per</span><br><span class="line">       !&#x3D;partial(&#39;includes&#x2F;widget&#x2F;card_per&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>找到<code>\themes\butterfly\languages\zh-CN.yml</code>中的aside并添加 <code>card_per: 现在时间</code></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aside:</span><br><span class="line">  articles: 文章</span><br><span class="line">  tags: 标签</span><br><span class="line">  categories: 分类</span><br><span class="line">  card_announcement: 公告</span><br><span class="line">  card_per: 现在时间</span><br></pre></td></tr></table></figure>
-<ul>
-<li>在主题目录下的<code>_config.yml</code>的<code>aside</code>中添加<code>card_per： true</code></li>
-<li>在主题目录下的<code>_config.yml</code>的<code>inject</code>中添加代码</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">  </span><br><span class="line">  bottom:</span><br><span class="line">     - &lt;script src&#x3D;&#39;&#x2F;js&#x2F;snap.svg-min.js&#39;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">     - &lt;script src&#x3D;&quot;&#x2F;js&#x2F;clock.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<p>最后<code>hexo s</code>就可以本地看到结果</p>
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
-      </tags>
   </entry>
   <entry>
     <title>Python之数据可视化</title>
@@ -560,6 +520,46 @@
       </tags>
   </entry>
   <entry>
+    <title>爬虫第一课</title>
+    <url>/post/2f13.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly主题美化之加时钟</title>
+    <url>/post/13d4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="时钟一"><a href="#时钟一" class="headerlink" title="时钟一"></a>时钟一</h2><p>效果图：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200809205035932.gif#pic_center" alt="在这里插入图片描述"></p>
+<ul>
+<li>首先我们下载这两个文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/snap.svg-min.js">snap.svg-min.js</a> 和<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/clock.js">clock.js</a>)，并把它们放到主题目录下的<code>source/js</code>中</li>
+<li>再下载此文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/index.html">index.html</a>)放在目录<code>\themes\butterfly\layout\includes\widget</code>下</li>
+<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下建立文件<code>card_per.pug</code>，内容如下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-aper</span><br><span class="line">  .card-content</span><br><span class="line">    .item-headline</span><br><span class="line">      i.fas.fa-clock-o</span><br><span class="line">      span&#x3D; _p(&#39;aside.card_per&#39;)</span><br><span class="line">      include index.html</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下找到<code>index.pug</code>并在自己想要的位置添加代码</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_per</span><br><span class="line">       !&#x3D;partial(&#39;includes&#x2F;widget&#x2F;card_per&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>找到<code>\themes\butterfly\languages\zh-CN.yml</code>中的aside并添加 <code>card_per: 现在时间</code></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aside:</span><br><span class="line">  articles: 文章</span><br><span class="line">  tags: 标签</span><br><span class="line">  categories: 分类</span><br><span class="line">  card_announcement: 公告</span><br><span class="line">  card_per: 现在时间</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在主题目录下的<code>_config.yml</code>的<code>aside</code>中添加<code>card_per： true</code></li>
+<li>在主题目录下的<code>_config.yml</code>的<code>inject</code>中添加代码</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">  </span><br><span class="line">  bottom:</span><br><span class="line">     - &lt;script src&#x3D;&#39;&#x2F;js&#x2F;snap.svg-min.js&#39;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">     - &lt;script src&#x3D;&quot;&#x2F;js&#x2F;clock.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<p>最后<code>hexo s</code>就可以本地看到结果</p>
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Alexander多项式验证</title>
     <url>/post/d699.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><br>
@@ -609,56 +609,6 @@
 
 <p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@1.2/4jj.jpg"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>My love theme</title>
-    <url>/post/fad4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo-theme-fluid"><a href="#Hexo-theme-fluid" class="headerlink" title="Hexo-theme-fluid"></a>Hexo-theme-fluid</h1><p>Github地址<br><a href="https://github.com/fluid-dev/hexo-theme-fluid" class="LinkCard">Fluid</a><br>演示地址<br><a href="https://hexo.fluid-dev.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/clockkk.gif"></p>
-<h1 id="Hexo-theme-volantis"><a href="#Hexo-theme-volantis" class="headerlink" title="Hexo-theme-volantis"></a>Hexo-theme-volantis</h1><p>Github地址</p>
-<p><a href="https://github.com/volantis-x/hexo-theme-volantis" class="LinkCard">Volantis</a></p>
-<p>演示地址</p>
-<p><a href="https://volantis.js.org/" class="LinkCard">演示</a></p>
-<p>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/eder.gif"></p>
-<h1 id="Hexo-theme-matery"><a href="#Hexo-theme-matery" class="headerlink" title="Hexo-theme-matery"></a>Hexo-theme-matery</h1><p>Github地址<br><a href="https://github.com/blinkfox/hexo-theme-matery" class="LinkCard">Matery</a><br>演示地址<br><a href="http://blinkfox.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/h.gif"></p>
-<h1 id="Hexo-theme-icarus"><a href="#Hexo-theme-icarus" class="headerlink" title="Hexo-theme-icarus"></a>Hexo-theme-icarus</h1><p>Github<br><a href="https://github.com/ppoffice/hexo-theme-icarus" class="LinkCard">Icarus</a><br>演示地址（国内访问较慢）<br><a href="https://blog.zhangruipeng.me/hexo-theme-icarus" class="LinkCard">演示</a><br>安装教程<br><a href="https://easyhexo.com/2-Theme-use-and-config/2-12-hexo-theme-icarus/" class="LinkCard">安装</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/1.7fabd81a.png"></p>
-<h1 id="Hexo-theme-Claudia"><a href="#Hexo-theme-Claudia" class="headerlink" title="Hexo-theme-Claudia"></a>Hexo-theme-Claudia</h1><p>Github地址<br><a href="https://github.com/Haojen/hexo-theme-Claudia" class="LinkCard">Claudia</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/claudia-cover.png"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客订阅通知功能</title>
-    <url>/post/91f8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
-<p>在你的博客站点目录执行下面的命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
-<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
-<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
-<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
-<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
-<ul>
-<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
-<ul>
-<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
-</li>
-<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
-</li>
-</ul>
-<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
-<li>其中trackingCode是下面图片中黑色下划线的代码</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
-<ul>
-<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
-<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
-      </tags>
   </entry>
   <entry>
     <title>初学Python之考试三不会题</title>
@@ -722,30 +672,54 @@
       </tags>
   </entry>
   <entry>
-    <title>图床搭建</title>
-    <url>/post/6272.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>以前我所有的图片链接都是用CSDN生成的，当然也尝试了用Github搭建自己的图床，但是第一次失败了，还浪费了很多时间，所以之后就没管了。渐渐地发现用CSDN生成链接比较麻烦，今天无意间发现<br><a href="https://www.xiaolfeng.xyz/224/%E5%9F%BA%E4%BA%8Epicgo%E6%90%AD%E5%BB%BA%E7%A8%B3%E5%AE%9A%E7%9A%84%E5%9B%BE%E5%BA%8A%EF%BC%88%E6%94%AF%E6%8C%81github%EF%BC%89.html#%E5%89%8D%E8%A8%80" class="LinkCard">基于PicGo搭建稳定的图床（支持GitHub</a><br>这篇文章，然后兴趣兴起，照着又重新搭建自己图床，没想到成功了，特此来记录。</p>
-<h1 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h1><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><div class="note primary no-icon"><p>PicGo项目地址：<a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a><br>软件使用文档：<a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html">https://picgo.github.io/PicGo-Doc/zh/guide/config.html</a></p>
-</div>
-<p>下载安装即可</p>
-<h2 id="Github设置"><a href="#Github设置" class="headerlink" title="Github设置"></a>Github设置</h2><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/15.jpg"></p>
-<h3 id="设置Token（令牌）"><a href="#设置Token（令牌）" class="headerlink" title="设置Token（令牌）"></a>设置Token（令牌）</h3><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224156.png"><br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224550.png"><br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224614.png"><br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224712.png"></p>
-<p>然后将红色框内的都打上钩<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224933.png"><br>然后拉到最下面看到绿色的按钮点下去,注意一下，这个代码你最好保存一下，他只会显示一次，以后忘了只能重置，所以保存一下</p>
-<h3 id="PicGo设置"><a href="#PicGo设置" class="headerlink" title="PicGo设置"></a>PicGo设置</h3><p>打开软件→图床设置→GitHub图床进入设置。首先仓库名可以在这里找，如下图所示即为仓库名<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807230640.png"></p>
-<p>对于设定分支名,一般就是master。对于Token，就是你刚刚创建的Token那一串代码 ，下面说一下自定义域名</p>
-<ol>
-<li>首先jsdelivr的CDN节点IP为 <code>https://cdn.jsdelivr.net/</code></li>
-<li>然后在后面添加 <code>gh/</code></li>
-<li>然后在后面添加你的仓库名 <code>XXXXX/XXXXX</code></li>
-<li>（注意上一个后面不带“/”）然后添加<code>@master/</code>就是你最后的CDN节点，属于这个仓库名的CDN节点</li>
-</ol>
-<p>也就是说连起来是 <code>https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master</code> ，但最后填入的是<code>https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master</code></p>
-<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>保存成功后，上传文件试一下<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/156.png"></p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>以上图片来源于<a href="https://www.xiaolfeng.xyz/">凌中的锋雨</a></p>
+    <title>博客订阅通知功能</title>
+    <url>/post/91f8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
+<p>在你的博客站点目录执行下面的命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
+<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
+<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
+<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
+<ul>
+<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
+<ul>
+<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
+</li>
+<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
+</li>
+</ul>
+<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
+<li>其中trackingCode是下面图片中黑色下划线的代码</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
+<ul>
+<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
+<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
 ]]></content>
       <tags>
         <tag>Butterfly</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>My love theme</title>
+    <url>/post/fad4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo-theme-fluid"><a href="#Hexo-theme-fluid" class="headerlink" title="Hexo-theme-fluid"></a>Hexo-theme-fluid</h1><p>Github地址<br><a href="https://github.com/fluid-dev/hexo-theme-fluid" class="LinkCard">Fluid</a><br>演示地址<br><a href="https://hexo.fluid-dev.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/clockkk.gif"></p>
+<h1 id="Hexo-theme-volantis"><a href="#Hexo-theme-volantis" class="headerlink" title="Hexo-theme-volantis"></a>Hexo-theme-volantis</h1><p>Github地址</p>
+<p><a href="https://github.com/volantis-x/hexo-theme-volantis" class="LinkCard">Volantis</a></p>
+<p>演示地址</p>
+<p><a href="https://volantis.js.org/" class="LinkCard">演示</a></p>
+<p>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/eder.gif"></p>
+<h1 id="Hexo-theme-matery"><a href="#Hexo-theme-matery" class="headerlink" title="Hexo-theme-matery"></a>Hexo-theme-matery</h1><p>Github地址<br><a href="https://github.com/blinkfox/hexo-theme-matery" class="LinkCard">Matery</a><br>演示地址<br><a href="http://blinkfox.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/h.gif"></p>
+<h1 id="Hexo-theme-icarus"><a href="#Hexo-theme-icarus" class="headerlink" title="Hexo-theme-icarus"></a>Hexo-theme-icarus</h1><p>Github<br><a href="https://github.com/ppoffice/hexo-theme-icarus" class="LinkCard">Icarus</a><br>演示地址（国内访问较慢）<br><a href="https://blog.zhangruipeng.me/hexo-theme-icarus" class="LinkCard">演示</a><br>安装教程<br><a href="https://easyhexo.com/2-Theme-use-and-config/2-12-hexo-theme-icarus/" class="LinkCard">安装</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/1.7fabd81a.png"></p>
+<h1 id="Hexo-theme-Claudia"><a href="#Hexo-theme-Claudia" class="headerlink" title="Hexo-theme-Claudia"></a>Hexo-theme-Claudia</h1><p>Github地址<br><a href="https://github.com/Haojen/hexo-theme-Claudia" class="LinkCard">Claudia</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/claudia-cover.png"></p>
+]]></content>
   </entry>
   <entry>
     <title>Butterfly增加封面小菜单</title>
@@ -775,6 +749,83 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo博客引用B站视频并自动适配</title>
+    <url>/post/f609.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>这篇文章属于转载，原地址为<a href="https://hongcyu.cn/posts/hexo-bilibili.html">Hexo博客引用B站视频并自动适配</a></p>
+<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在进行引用B站用iframe方式引入视频时发现，通过默认的方式导入会使得屏幕很小</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4hgds.jpg"></p>
+<p>一般我们都是自己改width和height来修改大小，但是换成不同的设备就无法正常的显示了。如下</p>
+<p>默认：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>修改后：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;720&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>即可较好的适配大屏幕，但是到手机上就不太好用了，不能自动适配，怎么办呢，看下面的两种办法：</p>
+<h1 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h1><p>外面包裹一个div标签，div标签自适应与屏幕的大小，包裹内iframe以100%顶边撑开。以butterfly主题为例子：在<code>source/css/_ global/function.styl</code>下底部添加以下css代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"><span class="selector-class">.bilibili</span>&#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">0</span>;              <span class="comment">/*高度设置这里无效，设置为0，用padding撑开div*/</span></span><br><span class="line">    <span class="attribute">padding-bottom</span>: <span class="number">75%</span>;    <span class="comment">/*68%到80%都可以*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.bilibili</span> <span class="selector-tag">iframe</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>插入时写成如下形式即可：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<div class="bilibili">
+    <iframe src="//player.bilibili.com/player.html?aid=81148317&cid=138878361&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+<h1 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h1><p>使用@media属性，对不同屏幕大小的设备，设置宽度和高度。@media可以查询到设备的以下属性</p>
+<ol>
+<li>设备屏幕的高度</li>
+<li>设备的方向（如移动设备横屏）</li>
+<li>可视窗口的宽高</li>
+<li>屏幕解析度</li>
+</ol>
+<p>和上面一样，在指定位置插入css代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.bilibili</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">767px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">15em</span>;<span class="attribute">max-width</span>: <span class="number">25em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">768px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">991px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">20em</span>;<span class="attribute">max-width</span>: <span class="number">30em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">992px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">1199px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">30em</span>;<span class="attribute">max-width</span>: <span class="number">40em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">1200px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">40em</span>;<span class="attribute">max-width</span>: <span class="number">50em</span>;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后直接引用B站的iframe代码加上<code>class=&quot;bilibili&quot;</code>：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="B站链接的参数"><a href="#B站链接的参数" class="headerlink" title="B站链接的参数"></a>B站链接的参数</h2><p>例如：<code>player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1</code></p>
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>aid</td>
+<td>视频ID 就是B站的av号</td>
+</tr>
+<tr>
+<td>cid</td>
+<td>应该是客户端的id,clientid的缩写（推测） 测试表示不填也不会有什么问题</td>
+</tr>
+<tr>
+<td>page</td>
+<td>第几个视频 也就是分P的 默认是1</td>
+</tr>
+<tr>
+<td>as_wide</td>
+<td>是否宽屏 1：宽屏 0：小屏</td>
+</tr>
+<tr>
+<td>high_quality</td>
+<td>视频质量 1：最高视频质量 0：最低视频质量</td>
+</tr>
+<tr>
+<td>danmaku</td>
+<td>是否开启弹幕 1：开启（默认） 0：关闭</td>
+</tr>
+</tbody></table>
+<h2 id="阻止跳转B站"><a href="#阻止跳转B站" class="headerlink" title="阻止跳转B站"></a>阻止跳转B站</h2><p>在网页上, 用户选择清晰度, 或者点击视频上面的一些图标, 会跳转到B站. 这个可通过设置 iframe 的 sandbox 属性去禁止</p>
+<p><code>sandbox=&quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&quot;</code></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="修改默认视频质量"><a href="#修改默认视频质量" class="headerlink" title="修改默认视频质量"></a>修改默认视频质量</h2><p>B站默认视频质量是最低的，可以通过在src链接后面添加&amp;high_quality=1来设置</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>改造博客</title>
     <url>/post/de46.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>当对以前的博客出现了审美疲劳后，我又又又到处去浏览别人的博客，试图找一些新的博客改造，终于出现了现在的样式，不知道多久后我又会改博客了！！！😛😛😛😛😛</p>
@@ -792,6 +843,32 @@
 </ul>
 <p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai3.gif"></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>图床搭建</title>
+    <url>/post/6272.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>以前我所有的图片链接都是用CSDN生成的，当然也尝试了用Github搭建自己的图床，但是第一次失败了，还浪费了很多时间，所以之后就没管了。渐渐地发现用CSDN生成链接比较麻烦，今天无意间发现<br><a href="https://www.xiaolfeng.xyz/224/%E5%9F%BA%E4%BA%8Epicgo%E6%90%AD%E5%BB%BA%E7%A8%B3%E5%AE%9A%E7%9A%84%E5%9B%BE%E5%BA%8A%EF%BC%88%E6%94%AF%E6%8C%81github%EF%BC%89.html#%E5%89%8D%E8%A8%80" class="LinkCard">基于PicGo搭建稳定的图床（支持GitHub</a><br>这篇文章，然后兴趣兴起，照着又重新搭建自己图床，没想到成功了，特此来记录。</p>
+<h1 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h1><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><div class="note primary no-icon"><p>PicGo项目地址：<a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a><br>软件使用文档：<a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html">https://picgo.github.io/PicGo-Doc/zh/guide/config.html</a></p>
+</div>
+<p>下载安装即可</p>
+<h2 id="Github设置"><a href="#Github设置" class="headerlink" title="Github设置"></a>Github设置</h2><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/15.jpg"></p>
+<h3 id="设置Token（令牌）"><a href="#设置Token（令牌）" class="headerlink" title="设置Token（令牌）"></a>设置Token（令牌）</h3><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224156.png"><br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224550.png"><br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224614.png"><br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224712.png"></p>
+<p>然后将红色框内的都打上钩<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807224933.png"><br>然后拉到最下面看到绿色的按钮点下去,注意一下，这个代码你最好保存一下，他只会显示一次，以后忘了只能重置，所以保存一下</p>
+<h3 id="PicGo设置"><a href="#PicGo设置" class="headerlink" title="PicGo设置"></a>PicGo设置</h3><p>打开软件→图床设置→GitHub图床进入设置。首先仓库名可以在这里找，如下图所示即为仓库名<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20200807230640.png"></p>
+<p>对于设定分支名,一般就是master。对于Token，就是你刚刚创建的Token那一串代码 ，下面说一下自定义域名</p>
+<ol>
+<li>首先jsdelivr的CDN节点IP为 <code>https://cdn.jsdelivr.net/</code></li>
+<li>然后在后面添加 <code>gh/</code></li>
+<li>然后在后面添加你的仓库名 <code>XXXXX/XXXXX</code></li>
+<li>（注意上一个后面不带“/”）然后添加<code>@master/</code>就是你最后的CDN节点，属于这个仓库名的CDN节点</li>
+</ol>
+<p>也就是说连起来是 <code>https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master</code> ，但最后填入的是<code>https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master</code></p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>保存成功后，上传文件试一下<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/156.png"></p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>以上图片来源于<a href="https://www.xiaolfeng.xyz/">凌中的锋雨</a></p>
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
   </entry>
   <entry>
     <title>数理逻辑第一章</title>
@@ -1092,83 +1169,6 @@
 ]]></content>
       <tags>
         <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo博客引用B站视频并自动适配</title>
-    <url>/post/f609.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>这篇文章属于转载，原地址为<a href="https://hongcyu.cn/posts/hexo-bilibili.html">Hexo博客引用B站视频并自动适配</a></p>
-<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在进行引用B站用iframe方式引入视频时发现，通过默认的方式导入会使得屏幕很小</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4hgds.jpg"></p>
-<p>一般我们都是自己改width和height来修改大小，但是换成不同的设备就无法正常的显示了。如下</p>
-<p>默认：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>修改后：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;720&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>即可较好的适配大屏幕，但是到手机上就不太好用了，不能自动适配，怎么办呢，看下面的两种办法：</p>
-<h1 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h1><p>外面包裹一个div标签，div标签自适应与屏幕的大小，包裹内iframe以100%顶边撑开。以butterfly主题为例子：在<code>source/css/_ global/function.styl</code>下底部添加以下css代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"><span class="selector-class">.bilibili</span>&#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">0</span>;              <span class="comment">/*高度设置这里无效，设置为0，用padding撑开div*/</span></span><br><span class="line">    <span class="attribute">padding-bottom</span>: <span class="number">75%</span>;    <span class="comment">/*68%到80%都可以*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.bilibili</span> <span class="selector-tag">iframe</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>插入时写成如下形式即可：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<div class="bilibili">
-    <iframe src="//player.bilibili.com/player.html?aid=81148317&cid=138878361&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-<h1 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h1><p>使用@media属性，对不同屏幕大小的设备，设置宽度和高度。@media可以查询到设备的以下属性</p>
-<ol>
-<li>设备屏幕的高度</li>
-<li>设备的方向（如移动设备横屏）</li>
-<li>可视窗口的宽高</li>
-<li>屏幕解析度</li>
-</ol>
-<p>和上面一样，在指定位置插入css代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.bilibili</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">767px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">15em</span>;<span class="attribute">max-width</span>: <span class="number">25em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">768px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">991px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">20em</span>;<span class="attribute">max-width</span>: <span class="number">30em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">992px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">1199px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">30em</span>;<span class="attribute">max-width</span>: <span class="number">40em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">1200px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">40em</span>;<span class="attribute">max-width</span>: <span class="number">50em</span>;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>然后直接引用B站的iframe代码加上<code>class=&quot;bilibili&quot;</code>：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="B站链接的参数"><a href="#B站链接的参数" class="headerlink" title="B站链接的参数"></a>B站链接的参数</h2><p>例如：<code>player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1</code></p>
-<table>
-<thead>
-<tr>
-<th>key</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>aid</td>
-<td>视频ID 就是B站的av号</td>
-</tr>
-<tr>
-<td>cid</td>
-<td>应该是客户端的id,clientid的缩写（推测） 测试表示不填也不会有什么问题</td>
-</tr>
-<tr>
-<td>page</td>
-<td>第几个视频 也就是分P的 默认是1</td>
-</tr>
-<tr>
-<td>as_wide</td>
-<td>是否宽屏 1：宽屏 0：小屏</td>
-</tr>
-<tr>
-<td>high_quality</td>
-<td>视频质量 1：最高视频质量 0：最低视频质量</td>
-</tr>
-<tr>
-<td>danmaku</td>
-<td>是否开启弹幕 1：开启（默认） 0：关闭</td>
-</tr>
-</tbody></table>
-<h2 id="阻止跳转B站"><a href="#阻止跳转B站" class="headerlink" title="阻止跳转B站"></a>阻止跳转B站</h2><p>在网页上, 用户选择清晰度, 或者点击视频上面的一些图标, 会跳转到B站. 这个可通过设置 iframe 的 sandbox 属性去禁止</p>
-<p><code>sandbox=&quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&quot;</code></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="修改默认视频质量"><a href="#修改默认视频质量" class="headerlink" title="修改默认视频质量"></a>修改默认视频质量</h2><p>B站默认视频质量是最低的，可以通过在src链接后面添加&amp;high_quality=1来设置</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
