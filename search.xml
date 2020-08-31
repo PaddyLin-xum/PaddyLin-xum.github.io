@@ -75,6 +75,118 @@
 ]]></content>
   </entry>
   <entry>
+    <title>FontAwesome动态图标</title>
+    <url>/post/0.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h1><div class="note primary no-icon"><ul>
+<i class="far fa-calendar-alt faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-wrench animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-spin animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="far fa-calendar-alt faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fas fa-camera faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-wrench animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-spin animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-camera faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fas fa-picture-o faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-wrench animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-spin animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-picture-o faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fas fa-paper-plane faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-wrench animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-spin animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-paper-plane faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fas fa-home faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-wrench animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-spin animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-home faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fa fa-cloud faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-wrench animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-spin animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-cloud faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fa fa-list-alt faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-wrench animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-spin animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fa fa-list-alt faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fas fa-plus-square faa-passing animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-plus-square faa-wrench animated" aria-hidden="true" style="margin-right: 73px;"></i>
+<i class="fas fa-plus-square faa-spin animated" aria-hidden="true" style="margin-right: 72px;"></i>
+<i class="fas fa-plus-square faa-pulse animated" aria-hidden="true" style="margin-right: 75px;"></i>
+<i class="fas fa-plus-square faa-rising animated" aria-hidden="true" style="margin-right: 74px;"></i>
+<i class="fas fa-plus-square faa-horizontal animated" aria-hidden="true" style="margin-right: 77px;"></i>
+<i class="fas fa-plus-square faa-bounce animated" aria-hidden="true" style="margin-right: 78px;"></i>
+<i class="fas fa-plus-square faa-shake animated" aria-hidden="true" style="margin-right: 75px;"></i>
+<i class="fas fa-plus-square faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul>
+<ul>
+<i class="fas fa-gamepad faa-passing animated" aria-hidden="true" style="margin-right: 64px;"></i>
+<i class="fas fa-gamepad faa-wrench animated" aria-hidden="true" style="margin-right: 63px;"></i>
+<i class="fas fa-gamepad faa-spin animated" aria-hidden="true" style="margin-right: 66px;"></i>
+<i class="fas fa-gamepad faa-pulse animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-gamepad faa-rising animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-gamepad faa-horizontal animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-gamepad faa-bounce animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-gamepad faa-shake animated" aria-hidden="true" style="margin-right: 70px;"></i>
+<i class="fas fa-gamepad faa-flash animated" aria-hidden="true" style="margin-right: 70px;"></i>
+</ul></div>
+
+<h1 id="使用代码"><a href="#使用代码" class="headerlink" title="使用代码"></a>使用代码</h1><p>上面图标的第一行代码</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-passing animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-wrench animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-spin animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-pulse animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-rising animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-horizontal animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-bounce animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-shake animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;far fa-calendar-alt faa-flash animated&quot;</span> <span class="attr">aria-hidden</span>=<span class="string">&quot;true&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-right: 70px;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>其中<code>style</code>属性还可以设置图标大小和颜色</p>
+<h1 id="引入文件"><a href="#引入文件" class="headerlink" title="引入文件"></a>引入文件</h1><p>在主题目录下的<code>_config</code>中引入以下代码</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;https://cdn.jsdelivr.net/gh/PaddyLin-xum/wenjian@master/css/fontanimation.css&quot;&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTML图床</title>
     <url>/post/61b1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>由于用<code>Github</code>和<code>PicGo</code>搭建的图床在后面使用过程中经常会出现<code>服务器出错</code>的提示导致半天一张图都传不上去。所以我努力地在网上搜索解决办法，但是都没有较好解决,倒是无意见发现了一个HTML上传图片到Github并获得使用连接的办法。然后经过改造得到了下图的结果<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/Sni.png"></p>
@@ -289,6 +401,17 @@
       </tags>
   </entry>
   <entry>
+    <title>爬虫第一课</title>
+    <url>/post/2f13.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>RSS订阅</title>
     <url>/post/9065.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
@@ -316,15 +439,10 @@
       </tags>
   </entry>
   <entry>
-    <title>爬虫第一课</title>
-    <url>/post/2f13.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
+    <title>PaddyLin的博客</title>
+    <url>/post/158f.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="我的博客诞生了"><a href="#我的博客诞生了" class="headerlink" title="我的博客诞生了"></a>我的博客诞生了</h2><p>纪念我在2020年7月4日开始接触hexo和github，并学习了搭建博客</p>
 ]]></content>
-      <tags>
-        <tag>Python</tag>
-      </tags>
   </entry>
   <entry>
     <title>Butterfly主题美化之加时钟</title>
@@ -354,12 +472,6 @@
       <tags>
         <tag>Butterfly</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>PaddyLin的博客</title>
-    <url>/post/158f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="我的博客诞生了"><a href="#我的博客诞生了" class="headerlink" title="我的博客诞生了"></a>我的博客诞生了</h2><p>纪念我在2020年7月4日开始接触hexo和github，并学习了搭建博客</p>
-]]></content>
   </entry>
   <entry>
     <title>Python之数据可视化</title>
@@ -513,6 +625,42 @@
 ]]></content>
   </entry>
   <entry>
+    <title>博客订阅通知功能</title>
+    <url>/post/91f8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
+<p>在你的博客站点目录执行下面的命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
+<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
+<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
+<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
+<ul>
+<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
+<ul>
+<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
+</li>
+<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
+</li>
+</ul>
+<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
+<li>其中trackingCode是下面图片中黑色下划线的代码</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
+<ul>
+<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
+<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>初学Python之考试三不会题</title>
     <url>/post/ff41.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第1题"><a href="#第1题" class="headerlink" title="第1题"></a>第1题</h1><p>阅读以下代码:</p>
@@ -571,42 +719,6 @@
 ]]></content>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客订阅通知功能</title>
-    <url>/post/91f8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
-<p>在你的博客站点目录执行下面的命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
-<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
-<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
-<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
-<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
-<ul>
-<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
-<ul>
-<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
-</li>
-<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
-</li>
-</ul>
-<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
-<li>其中trackingCode是下面图片中黑色下划线的代码</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
-<ul>
-<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
-<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
@@ -680,83 +792,6 @@
 </ul>
 <p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai3.gif"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Hexo博客引用B站视频并自动适配</title>
-    <url>/post/f609.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>这篇文章属于转载，原地址为<a href="https://hongcyu.cn/posts/hexo-bilibili.html">Hexo博客引用B站视频并自动适配</a></p>
-<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在进行引用B站用iframe方式引入视频时发现，通过默认的方式导入会使得屏幕很小</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4hgds.jpg"></p>
-<p>一般我们都是自己改width和height来修改大小，但是换成不同的设备就无法正常的显示了。如下</p>
-<p>默认：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>修改后：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;720&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>即可较好的适配大屏幕，但是到手机上就不太好用了，不能自动适配，怎么办呢，看下面的两种办法：</p>
-<h1 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h1><p>外面包裹一个div标签，div标签自适应与屏幕的大小，包裹内iframe以100%顶边撑开。以butterfly主题为例子：在<code>source/css/_ global/function.styl</code>下底部添加以下css代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"><span class="selector-class">.bilibili</span>&#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">0</span>;              <span class="comment">/*高度设置这里无效，设置为0，用padding撑开div*/</span></span><br><span class="line">    <span class="attribute">padding-bottom</span>: <span class="number">75%</span>;    <span class="comment">/*68%到80%都可以*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.bilibili</span> <span class="selector-tag">iframe</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>插入时写成如下形式即可：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<div class="bilibili">
-    <iframe src="//player.bilibili.com/player.html?aid=81148317&cid=138878361&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-<h1 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h1><p>使用@media属性，对不同屏幕大小的设备，设置宽度和高度。@media可以查询到设备的以下属性</p>
-<ol>
-<li>设备屏幕的高度</li>
-<li>设备的方向（如移动设备横屏）</li>
-<li>可视窗口的宽高</li>
-<li>屏幕解析度</li>
-</ol>
-<p>和上面一样，在指定位置插入css代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.bilibili</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">767px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">15em</span>;<span class="attribute">max-width</span>: <span class="number">25em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">768px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">991px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">20em</span>;<span class="attribute">max-width</span>: <span class="number">30em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">992px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">1199px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">30em</span>;<span class="attribute">max-width</span>: <span class="number">40em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">1200px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">40em</span>;<span class="attribute">max-width</span>: <span class="number">50em</span>;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>然后直接引用B站的iframe代码加上<code>class=&quot;bilibili&quot;</code>：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="B站链接的参数"><a href="#B站链接的参数" class="headerlink" title="B站链接的参数"></a>B站链接的参数</h2><p>例如：<code>player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1</code></p>
-<table>
-<thead>
-<tr>
-<th>key</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>aid</td>
-<td>视频ID 就是B站的av号</td>
-</tr>
-<tr>
-<td>cid</td>
-<td>应该是客户端的id,clientid的缩写（推测） 测试表示不填也不会有什么问题</td>
-</tr>
-<tr>
-<td>page</td>
-<td>第几个视频 也就是分P的 默认是1</td>
-</tr>
-<tr>
-<td>as_wide</td>
-<td>是否宽屏 1：宽屏 0：小屏</td>
-</tr>
-<tr>
-<td>high_quality</td>
-<td>视频质量 1：最高视频质量 0：最低视频质量</td>
-</tr>
-<tr>
-<td>danmaku</td>
-<td>是否开启弹幕 1：开启（默认） 0：关闭</td>
-</tr>
-</tbody></table>
-<h2 id="阻止跳转B站"><a href="#阻止跳转B站" class="headerlink" title="阻止跳转B站"></a>阻止跳转B站</h2><p>在网页上, 用户选择清晰度, 或者点击视频上面的一些图标, 会跳转到B站. 这个可通过设置 iframe 的 sandbox 属性去禁止</p>
-<p><code>sandbox=&quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&quot;</code></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="修改默认视频质量"><a href="#修改默认视频质量" class="headerlink" title="修改默认视频质量"></a>修改默认视频质量</h2><p>B站默认视频质量是最低的，可以通过在src链接后面添加&amp;high_quality=1来设置</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
   </entry>
   <entry>
     <title>数理逻辑第一章</title>
@@ -1057,6 +1092,83 @@
 ]]></content>
       <tags>
         <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo博客引用B站视频并自动适配</title>
+    <url>/post/f609.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>这篇文章属于转载，原地址为<a href="https://hongcyu.cn/posts/hexo-bilibili.html">Hexo博客引用B站视频并自动适配</a></p>
+<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在进行引用B站用iframe方式引入视频时发现，通过默认的方式导入会使得屏幕很小</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4hgds.jpg"></p>
+<p>一般我们都是自己改width和height来修改大小，但是换成不同的设备就无法正常的显示了。如下</p>
+<p>默认：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>修改后：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;720&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>即可较好的适配大屏幕，但是到手机上就不太好用了，不能自动适配，怎么办呢，看下面的两种办法：</p>
+<h1 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h1><p>外面包裹一个div标签，div标签自适应与屏幕的大小，包裹内iframe以100%顶边撑开。以butterfly主题为例子：在<code>source/css/_ global/function.styl</code>下底部添加以下css代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"><span class="selector-class">.bilibili</span>&#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">0</span>;              <span class="comment">/*高度设置这里无效，设置为0，用padding撑开div*/</span></span><br><span class="line">    <span class="attribute">padding-bottom</span>: <span class="number">75%</span>;    <span class="comment">/*68%到80%都可以*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.bilibili</span> <span class="selector-tag">iframe</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>插入时写成如下形式即可：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<div class="bilibili">
+    <iframe src="//player.bilibili.com/player.html?aid=81148317&cid=138878361&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+<h1 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h1><p>使用@media属性，对不同屏幕大小的设备，设置宽度和高度。@media可以查询到设备的以下属性</p>
+<ol>
+<li>设备屏幕的高度</li>
+<li>设备的方向（如移动设备横屏）</li>
+<li>可视窗口的宽高</li>
+<li>屏幕解析度</li>
+</ol>
+<p>和上面一样，在指定位置插入css代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.bilibili</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">767px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">15em</span>;<span class="attribute">max-width</span>: <span class="number">25em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">768px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">991px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">20em</span>;<span class="attribute">max-width</span>: <span class="number">30em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">992px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">1199px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">30em</span>;<span class="attribute">max-width</span>: <span class="number">40em</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (<span class="attribute">min-width:</span> <span class="number">1200px</span>) &#123;</span><br><span class="line">    <span class="selector-class">.bilibili</span> &#123;<span class="attribute">height</span>: <span class="number">40em</span>;<span class="attribute">max-width</span>: <span class="number">50em</span>;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后直接引用B站的iframe代码加上<code>class=&quot;bilibili&quot;</code>：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">class</span>=<span class="string">&quot;bilibili&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="B站链接的参数"><a href="#B站链接的参数" class="headerlink" title="B站链接的参数"></a>B站链接的参数</h2><p>例如：<code>player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1</code></p>
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>aid</td>
+<td>视频ID 就是B站的av号</td>
+</tr>
+<tr>
+<td>cid</td>
+<td>应该是客户端的id,clientid的缩写（推测） 测试表示不填也不会有什么问题</td>
+</tr>
+<tr>
+<td>page</td>
+<td>第几个视频 也就是分P的 默认是1</td>
+</tr>
+<tr>
+<td>as_wide</td>
+<td>是否宽屏 1：宽屏 0：小屏</td>
+</tr>
+<tr>
+<td>high_quality</td>
+<td>视频质量 1：最高视频质量 0：最低视频质量</td>
+</tr>
+<tr>
+<td>danmaku</td>
+<td>是否开启弹幕 1：开启（默认） 0：关闭</td>
+</tr>
+</tbody></table>
+<h2 id="阻止跳转B站"><a href="#阻止跳转B站" class="headerlink" title="阻止跳转B站"></a>阻止跳转B站</h2><p>在网页上, 用户选择清晰度, 或者点击视频上面的一些图标, 会跳转到B站. 这个可通过设置 iframe 的 sandbox 属性去禁止</p>
+<p><code>sandbox=&quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&quot;</code></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="修改默认视频质量"><a href="#修改默认视频质量" class="headerlink" title="修改默认视频质量"></a>修改默认视频质量</h2><p>B站默认视频质量是最低的，可以通过在src链接后面添加&amp;high_quality=1来设置</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=81148317&amp;cid=138878361&amp;page=1&amp;high_quality=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> <span class="attr">sandbox</span>=<span class="string">“allow-top-navigation</span> <span class="attr">allow-same-origin</span> <span class="attr">allow-forms</span> <span class="attr">allow-scripts</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>

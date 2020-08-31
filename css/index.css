@@ -1053,13 +1053,6 @@ mobile()
   filter: none;
   background: #fff;
 }
-.v[data-class=v] .status-bar,
-.v[data-class=v] .veditor,
-.v[data-class=v] .vinput,
-.v[data-class=v] p,
-.v[data-class=v] pre code {
-  color: rgba(255,255,255,0.69);
-}
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0;
