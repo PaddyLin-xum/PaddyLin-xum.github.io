@@ -512,13 +512,25 @@ img.sc-dVhcbM.idzueu.sc-bdVaJa.hlBhLX {
   border-bottom-right-radius: 4px;
 }
 .github-badge .bg-blue {
-  background-color: #007ec6;
+  background: -webkit-linear-gradient(left, #3a6186, #89253e);
+  background: -moz-linear-gradient(left, #3a6186, #89253e);
+  background: -o-linear-gradient(left, #3a6186, #89253e);
+  background: -ms-linear-gradient(left, #3a6186, #89253e);
+  background: linear-gradient(to right, #3a6186, #89253e);
 }
 .github-badge .bg-brightgreen {
-  background-color: #4dc820;
+  background: -webkit-linear-gradient(left, #fc5c7d, #6a82fb);
+  background: -moz-linear-gradient(left, #fc5c7d, #6a82fb);
+  background: -o-linear-gradient(left, #fc5c7d, #6a82fb);
+  background: -ms-linear-gradient(left, #fc5c7d, #6a82fb);
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 .github-badge .bg-orange {
-  background-color: #ffa500;
+  background: -webkit-linear-gradient(left, #f0c27b, #4b1248);
+  background: -moz-linear-gradient(left, #f0c27b, #4b1248);
+  background: -o-linear-gradient(left, #f0c27b, #4b1248);
+  background: -ms-linear-gradient(left, #f0c27b, #4b1248);
+  background: linear-gradient(to right, #f0c27b, #4b1248);
 }
 .github-badge .bg-gradient {
   background: -webkit-linear-gradient(left, #3ca5f6, #a86af9);
@@ -528,7 +540,18 @@ img.sc-dVhcbM.idzueu.sc-bdVaJa.hlBhLX {
   background: linear-gradient(to right, #3ca5f6, #a86af9);
 }
 .github-badge .bg-blueviolet {
-  background-color: #8833d7;
+  background: -webkit-linear-gradient(left, #654ea3, #eaafc8);
+  background: -moz-linear-gradient(left, #654ea3, #eaafc8);
+  background: -o-linear-gradient(left, #654ea3, #eaafc8);
+  background: -ms-linear-gradient(left, #654ea3, #eaafc8);
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+}
+.github-badge .bg-DNS {
+  background: -webkit-linear-gradient(left, #aa4b6b, #6b6b83, #3b8d99);
+  background: -moz-linear-gradient(left, #aa4b6b, #6b6b83, #3b8d99);
+  background: -o-linear-gradient(left, #aa4b6b, #6b6b83, #3b8d99);
+  background: -ms-linear-gradient(left, #aa4b6b, #6b6b83, #3b8d99);
+  background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
 }
 * {
   cursor: url("https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@1.4/normal.cur"), auto;
