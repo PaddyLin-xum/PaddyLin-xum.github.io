@@ -1,80 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>8月24日GET</title>
-    <url>/post/f31d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><center><p style="font-size:30px">今天分享一下我get到的新技能</p></center>
-- 学会了用磁贴管理电脑桌面，让电脑看起来更加简洁，参照方法来源：
- <a href="https://www.zhihu.com/question/358547747/answer/1230574638" class="LinkCard"></a>
-
-<ul>
-<li><p>腾讯，爱奇艺，优酷vip视频免费看（使用插件<a href="https://wws.lanzous.com/iuMROdbop7a">我要看VIP视频</a>）</p>
-</li>
-<li><p>IDM+油猴高速下载百度网盘资源</p>
-</li>
-<li><p>FDM代替迅雷下载</p>
-</li>
-<li><p>网易云音乐，虾米音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，哔哩哔哩聚合软件<code>Listen1</code>(也有插件)<br><a href="https://github.com/listen1/listen1_chrome_extension" class="LinkCard">Listen1</a></p>
-</li>
-<li><p>各平台VIP视频聚合软件<code>ZY Player</code>，有些时候比较慢<br><a href="https://github.com/Hunlongyu/ZY-Player/" class="LinkCard">ZY Player</a></p>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Butterfly加载动画修改</title>
-    <url>/post/4f69.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p style="font-size:25px">🐰添加配置文件</p>
-
-<p>在目录<code>themes\butterfly\layout\includes\loading</code>下添加<code>loaded.ejs</code>文件，代码如下</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">theme.preloader.enable</span>) &#123; %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&#x27;loader&#x27;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span>(<span class="attr">theme.preloader.layout</span> == <span class="string">&#x27;gear&#x27;</span> ) &#123;%&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;outer_box&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_overlay&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs&#x27;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs__top&#x27;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_hole&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs__left&#x27;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_hole&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs__bottom&#x27;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_hole&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span>loading...<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">%</span> &#125; <span class="attr">else</span> <span class="attr">if</span>(<span class="attr">theme.preloader.layout</span> == <span class="string">&#x27;spinner-box&#x27;</span>) &#123; %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;loading-left-bg&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;loading-right-bg&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;spinner-box&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-border-1&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-core&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-border-2&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-core&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;loading-word&quot;</span>&gt;</span>加载中...<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> endLoading = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">document</span>.body.style.overflow = <span class="string">&#x27;auto&#x27;</span>;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">document</span>.getElementById(<span class="string">&#x27;loader&#x27;</span>).classList.add(<span class="string">&quot;loading&quot;</span>);</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="javascript">  <span class="built_in">window</span>.addEventListener(<span class="string">&#x27;load&#x27;</span>,endLoading);</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p style="font-size:25px">🐰引入样式文件</p>
-- spinner-box风格样式文件：
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">- <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css&quot;</span> &gt;</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>gear风格样式文件<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">- <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css&quot;</span> &gt;</span></span><br></pre></td></tr></table></figure>
-将上面两行代码加到主题目录<code>config _yml</code>下的<code>inject</code>中<p style="font-size:25px">🐰引入到页面</p>
-
-</li>
-</ul>
-<p>找到<code>\themes\butterfly\layout\includes</code>下的文件<code>layout.pug</code>,将代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.preloader</span><br><span class="line">      !&#x3D;partial(&#39;includes&#x2F;loading&#x2F;loading&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
-<p>改为</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.preloader</span><br><span class="line">      !&#x3D;partial(&#39;includes&#x2F;loading&#x2F;loaded.ejs&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
-<p style="font-size:25px">🐰开启加载</p>
-
-<p>将主题目录<code>config _yml</code>中的</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">preloader:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<p>改为</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">preloader:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">layout:</span> <span class="string">gear</span> <span class="comment"># gear, spinner-box 两种样式</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
-    <title>Butterfly改便鼠标右键功能</title>
-    <url>/post/7ff9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p style="font-size:25px">🐭 创建文件</p>
-
-<p>在目录<code>themes\butterfly\layout\includes</code>下创建文件夹<code>rightclick</code>,在文件中创建文件<code>Right_Click.ejs</code></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span>(<span class="attr">theme.Right_Click.enable</span>) &#123; %&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;GalMenu GalDropDown&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;circle&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gal&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;ring&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:history.go(1);&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>前进<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:$(&#x27;html,body&#x27;).animate(&#123;scrollTop:0&#125;,500);&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>顶部<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:location.reload();&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>刷新<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/Message/&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>留言<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:history.go(-1);&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>后退<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span>(<span class="attr">theme.Right_Click.audio</span>) &#123;%&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;audio&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/audio/niconiconi.mp3&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">var</span> items = <span class="built_in">document</span>.querySelectorAll(<span class="string">&#x27;.menuItem&#x27;</span>); </span></span><br><span class="line"><span class="javascript">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>, l = items.length; i &lt; l; i++) &#123;</span></span><br><span class="line"><span class="javascript">        items[i].style.left = (<span class="number">50</span> - <span class="number">35</span> * <span class="built_in">Math</span>.cos( - <span class="number">0.5</span> * <span class="built_in">Math</span>.PI - <span class="number">2</span> * (<span class="number">1</span> / l) * i * <span class="built_in">Math</span>.PI)).toFixed(<span class="number">4</span>) + <span class="string">&quot;%&quot;</span>;</span></span><br><span class="line"><span class="javascript">        items[i].style.top = (<span class="number">50</span> + <span class="number">35</span> * <span class="built_in">Math</span>.sin( - <span class="number">0.5</span> * <span class="built_in">Math</span>.PI - <span class="number">2</span> * (<span class="number">1</span> / l) * i * <span class="built_in">Math</span>.PI)).toFixed(<span class="number">4</span>) + <span class="string">&quot;%&quot;</span></span></span><br><span class="line">      &#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="handlebars"><span class="xml">window.jQuery || document.write(&#x27;<span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/jquery-2.1.1.min.js&quot;</span>&gt;</span></span></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>&#x27;)<span class="tag">&lt;/<span class="name">script</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">%-</span> <span class="attr">js</span>(<span class="attr">theme.Right_Click.js</span>) %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">        $(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">        $(<span class="string">&#x27;body&#x27;</span>).GalMenu(&#123;</span></span><br><span class="line"><span class="javascript">          <span class="string">&#x27;menu&#x27;</span>: <span class="string">&#x27;GalDropDown&#x27;</span></span></span><br><span class="line">        &#125;)</span><br><span class="line">      &#125;);</span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure>
-<p style="font-size:25px">🐭 引入样式文件</p>
-
-<p>在主题目录<code>config _yml</code>下的<code>inject</code>中添加代码</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/css/GalMenu.css&quot;&gt;</span></span><br></pre></td></tr></table></figure>
-<p style="font-size:25px">🐭 引入到页面</p>
-
-<p>找到<code>\themes\butterfly\layout\includes</code>下的文件<code>layout.pug</code>,将代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.Right_Click</span><br><span class="line">     !&#x3D;partial(&#39;includes&#x2F;rightclick&#x2F;Right_Click&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
-<p>添加到最后面</p>
-<p style="font-size:25px">🐭 开启功能</p>
-
-<p>在主题<code>_ config.yml</code>中任意位置添加代码</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">Right_Click:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># true or false  是否开启右键</span></span><br><span class="line">  <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/GalMenu.js</span></span><br><span class="line">  <span class="attr">audio:</span> <span class="literal">false</span>  <span class="comment"># true or false 是否开启点击音乐</span></span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
     <title>FontAwesome动态图标</title>
     <url>/post/0.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h1><div class="note primary no-icon"><ul>
@@ -187,6 +113,126 @@
       </tags>
   </entry>
   <entry>
+    <title>8月24日GET</title>
+    <url>/post/f31d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><center><p style="font-size:30px">今天分享一下我get到的新技能</p></center>
+- 学会了用磁贴管理电脑桌面，让电脑看起来更加简洁，参照方法来源：
+ <a href="https://www.zhihu.com/question/358547747/answer/1230574638" class="LinkCard"></a>
+
+<ul>
+<li><p>腾讯，爱奇艺，优酷vip视频免费看（使用插件<a href="https://wws.lanzous.com/iuMROdbop7a">我要看VIP视频</a>）</p>
+</li>
+<li><p>IDM+油猴高速下载百度网盘资源</p>
+</li>
+<li><p>FDM代替迅雷下载</p>
+</li>
+<li><p>网易云音乐，虾米音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，哔哩哔哩聚合软件<code>Listen1</code>(也有插件)<br><a href="https://github.com/listen1/listen1_chrome_extension" class="LinkCard">Listen1</a></p>
+</li>
+<li><p>各平台VIP视频聚合软件<code>ZY Player</code>，有些时候比较慢<br><a href="https://github.com/Hunlongyu/ZY-Player/" class="LinkCard">ZY Player</a></p>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Butterfly改便鼠标右键功能</title>
+    <url>/post/7ff9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p style="font-size:25px">🐭 创建文件</p>
+
+<p>在目录<code>themes\butterfly\layout\includes</code>下创建文件夹<code>rightclick</code>,在文件中创建文件<code>Right_Click.ejs</code></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span>(<span class="attr">theme.Right_Click.enable</span>) &#123; %&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;GalMenu GalDropDown&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;circle&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gal&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;ring&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:history.go(1);&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>前进<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:$(&#x27;html,body&#x27;).animate(&#123;scrollTop:0&#125;,500);&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>顶部<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:location.reload();&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>刷新<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/Message/&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>留言<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:history.go(-1);&quot;</span> <span class="attr">class</span>=<span class="string">&quot;menuItem&quot;</span>&gt;</span>后退<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span>(<span class="attr">theme.Right_Click.audio</span>) &#123;%&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;audio&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/audio/niconiconi.mp3&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">var</span> items = <span class="built_in">document</span>.querySelectorAll(<span class="string">&#x27;.menuItem&#x27;</span>); </span></span><br><span class="line"><span class="javascript">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>, l = items.length; i &lt; l; i++) &#123;</span></span><br><span class="line"><span class="javascript">        items[i].style.left = (<span class="number">50</span> - <span class="number">35</span> * <span class="built_in">Math</span>.cos( - <span class="number">0.5</span> * <span class="built_in">Math</span>.PI - <span class="number">2</span> * (<span class="number">1</span> / l) * i * <span class="built_in">Math</span>.PI)).toFixed(<span class="number">4</span>) + <span class="string">&quot;%&quot;</span>;</span></span><br><span class="line"><span class="javascript">        items[i].style.top = (<span class="number">50</span> + <span class="number">35</span> * <span class="built_in">Math</span>.sin( - <span class="number">0.5</span> * <span class="built_in">Math</span>.PI - <span class="number">2</span> * (<span class="number">1</span> / l) * i * <span class="built_in">Math</span>.PI)).toFixed(<span class="number">4</span>) + <span class="string">&quot;%&quot;</span></span></span><br><span class="line">      &#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="handlebars"><span class="xml">window.jQuery || document.write(&#x27;<span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/jquery-2.1.1.min.js&quot;</span>&gt;</span></span></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>&#x27;)<span class="tag">&lt;/<span class="name">script</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">%-</span> <span class="attr">js</span>(<span class="attr">theme.Right_Click.js</span>) %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">        $(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">        $(<span class="string">&#x27;body&#x27;</span>).GalMenu(&#123;</span></span><br><span class="line"><span class="javascript">          <span class="string">&#x27;menu&#x27;</span>: <span class="string">&#x27;GalDropDown&#x27;</span></span></span><br><span class="line">        &#125;)</span><br><span class="line">      &#125;);</span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure>
+<p style="font-size:25px">🐭 引入样式文件</p>
+
+<p>在主题目录<code>config _yml</code>下的<code>inject</code>中添加代码</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/css/GalMenu.css&quot;&gt;</span></span><br></pre></td></tr></table></figure>
+<p style="font-size:25px">🐭 引入到页面</p>
+
+<p>找到<code>\themes\butterfly\layout\includes</code>下的文件<code>layout.pug</code>,将代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.Right_Click</span><br><span class="line">     !&#x3D;partial(&#39;includes&#x2F;rightclick&#x2F;Right_Click&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
+<p>添加到最后面</p>
+<p style="font-size:25px">🐭 开启功能</p>
+
+<p>在主题<code>_ config.yml</code>中任意位置添加代码</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">Right_Click:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># true or false  是否开启右键</span></span><br><span class="line">  <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/GalMenu.js</span></span><br><span class="line">  <span class="attr">audio:</span> <span class="literal">false</span>  <span class="comment"># true or false 是否开启点击音乐</span></span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>Butterfly加载动画修改</title>
+    <url>/post/4f69.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p style="font-size:25px">🐰添加配置文件</p>
+
+<p>在目录<code>themes\butterfly\layout\includes\loading</code>下添加<code>loaded.ejs</code>文件，代码如下</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">theme.preloader.enable</span>) &#123; %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&#x27;loader&#x27;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span>(<span class="attr">theme.preloader.layout</span> == <span class="string">&#x27;gear&#x27;</span> ) &#123;%&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;outer_box&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_overlay&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs&#x27;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs__top&#x27;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;top_hole&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs__left&#x27;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;left_hole&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;loader_cogs__bottom&#x27;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_part&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;bottom_hole&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span>loading...<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">%</span> &#125; <span class="attr">else</span> <span class="attr">if</span>(<span class="attr">theme.preloader.layout</span> == <span class="string">&#x27;spinner-box&#x27;</span>) &#123; %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;loading-left-bg&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;loading-right-bg&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;spinner-box&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-border-1&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-core&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-border-2&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;configure-core&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;loading-word&quot;</span>&gt;</span>加载中...<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> endLoading = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">document</span>.body.style.overflow = <span class="string">&#x27;auto&#x27;</span>;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">document</span>.getElementById(<span class="string">&#x27;loader&#x27;</span>).classList.add(<span class="string">&quot;loading&quot;</span>);</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="javascript">  <span class="built_in">window</span>.addEventListener(<span class="string">&#x27;load&#x27;</span>,endLoading);</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p style="font-size:25px">🐰引入样式文件</p>
+- spinner-box风格样式文件：
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">- <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css&quot;</span> &gt;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>gear风格样式文件<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">- <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css&quot;</span> &gt;</span></span><br></pre></td></tr></table></figure>
+将上面两行代码加到主题目录<code>config _yml</code>下的<code>inject</code>中<p style="font-size:25px">🐰引入到页面</p>
+
+</li>
+</ul>
+<p>找到<code>\themes\butterfly\layout\includes</code>下的文件<code>layout.pug</code>,将代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.preloader</span><br><span class="line">      !&#x3D;partial(&#39;includes&#x2F;loading&#x2F;loading&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.preloader</span><br><span class="line">      !&#x3D;partial(&#39;includes&#x2F;loading&#x2F;loaded.ejs&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
+<p style="font-size:25px">🐰开启加载</p>
+
+<p>将主题目录<code>config _yml</code>中的</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">preloader:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">preloader:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">layout:</span> <span class="string">gear</span> <span class="comment"># gear, spinner-box 两种样式</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Googledrive网盘的简单搭建</title>
+    <url>/post/86a62d13.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="所需工具"><a href="#所需工具" class="headerlink" title="所需工具"></a>所需工具</h1><ol>
+<li>Googledrive的账号</li>
+<li>Cloudflare账号（注册地址为:<a href="https://dash.cloudflare.com/">Cloudflare</a>）</li>
+</ol>
+<h1 id="网盘搭建"><a href="#网盘搭建" class="headerlink" title="网盘搭建"></a>网盘搭建</h1><h2 id="获取Googledrive的账号"><a href="#获取Googledrive的账号" class="headerlink" title="获取Googledrive的账号"></a>获取Googledrive的账号</h2><p>这里申请需要fq，或者你使用谷歌浏览器，然后安装<code>谷歌上网助手</code>插件就可以访问谷歌的一切产品。</p>
+<h2 id="获取代码"><a href="#获取代码" class="headerlink" title="获取代码"></a>获取代码</h2><p>访问以下三个链接之一</p>
+<div class="note primary no-icon"><ol>
+<li><a href="https://install.achirou.workers.dev/">https://install.achirou.workers.dev</a></li>
+<li><a href="https://goindex-quick-install.glitch.me/">https://goindex-quick-install.glitch.me</a></li>
+<li><a href="https://goindex-install.herokuapp.com/">https://goindex-install.herokuapp.com</a></li>
+</ol>
+</div>
+<p>这里我们用第一个链接演示，打开后如图操作<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google1.png"></p>
+<h2 id="部署网页"><a href="#部署网页" class="headerlink" title="部署网页"></a>部署网页</h2><ul>
+<li>选择Cloudflare中的Workers</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/onedrive2.png"></p>
+<ul>
+<li>选择<code>创建Worker</code></li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/onedrive3.png"></p>
+<ul>
+<li>将上面最后得到的代码覆盖脚本中的代码，然后点击预览，得到如图结果(记得保存并部署)</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google2.png"></p>
+<p>自行添加目录的<code>id</code>可以如下图找到</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google3.png"></p>
+<h1 id="谷歌网盘扩容"><a href="#谷歌网盘扩容" class="headerlink" title="谷歌网盘扩容"></a>谷歌网盘扩容</h1><p>大家有没有发现我的谷歌云盘多了共享云端硬盘，因为原盘只有<code>15G</code>空间，所以我们可以增加团队云盘（空间无限）</p>
+<h2 id="创建地址"><a href="#创建地址" class="headerlink" title="创建地址"></a>创建地址</h2><div class="note primary no-icon"><ul>
+<li><a href="https://gd.zxd.workers.dev/">https://gd.zxd.workers.dev</a> 所屬團隊： yesyesxx.me</li>
+<li><a href="https://gd.404edu.workers.dev/">https://gd.404edu.workers.dev</a> 所屬團隊： alum.ccu.edu.tw</li>
+<li><a href="http://leon.educationhost.cloud/">http://leon.educationhost.cloud/</a></li>
+<li><a href="https://gd.404edu.workers.dev/">https://gd.404edu.workers.dev/</a></li>
+<li><a href="https://teamdrive.xcpx.workers.dev/">https://teamdrive.xcpx.workers.dev/</a> swccd.edu团队盘</li>
+</ul>
+</div>
+
+<h2 id="创建方法"><a href="#创建方法" class="headerlink" title="创建方法"></a>创建方法</h2><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google4.png"><br>填自己的邮箱，然后得到一个团队盘，团队盘自己是管理，并且只有一个人。然后打开<a href="https://drive.google.com/drive/shared-drives">https://drive.google.com/drive/shared-drives</a> , 有可能盘已经添加了（如果提示无权限直接打开），可以重复多次不断提交！</p>
+]]></content>
+      <tags>
+        <tag>网盘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTML图床</title>
     <url>/post/61b1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>由于用<code>Github</code>和<code>PicGo</code>搭建的图床在后面使用过程中经常会出现<code>服务器出错</code>的提示导致半天一张图都传不上去。所以我努力地在网上搜索解决办法，但是都没有较好解决,倒是无意见发现了一个HTML上传图片到Github并获得使用连接的办法。然后经过改造得到了下图的结果<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/Sni.png"></p>
@@ -212,6 +258,44 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown编辑器推荐</title>
+    <url>/post/b33e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍三款Markdown编辑器"><a href="#介绍三款Markdown编辑器" class="headerlink" title="介绍三款Markdown编辑器"></a>介绍三款Markdown编辑器</h1><hr>
+<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
+<h3 id="1、MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#1、MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="1、MdEditor是一个在线编辑Markdown文档的编辑器"></a>1、MdEditor是一个在线编辑Markdown文档的编辑器</h3><hr>
+<blockquote>
+<ul>
+<li>它能插入多种代码</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180547979.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<blockquote>
+<ul>
+<li>支持数学公式编辑</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180918512.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<blockquote>
+<ul>
+<li>支持流程图</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181221587.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>它的许多优点等待你的<a href="http://www.mdeditor.com/">发现</a></p>
+<h3 id="2、Cmd-Markdown阅读编辑器"><a href="#2、Cmd-Markdown阅读编辑器" class="headerlink" title="2、Cmd_Markdown阅读编辑器"></a>2、Cmd_Markdown阅读编辑器</h3><hr>
+<p>他同样支持流程图编写、支持Late数学公式，话不多说，上图：</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181849825.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">这里是下载<a href="https://www.zybuluo.com/cmd/">链接</a>，还有在线编辑<a href="https://www.zybuluo.com/mdeditor">网址</a>。</p>
+<h3 id="3、Typora"><a href="#3、Typora" class="headerlink" title="3、Typora"></a>3、Typora</h3><hr>
+<p>这是他的<a href="https://www.typora.io/#">官网</a>。国内下载较慢，可以自备梯子<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802402.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>支持多个版本<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802186.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>我下载的是windows版本（64位）。它的界面虽然简单：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183547720.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>但是它立马写，就可以看到结果，并可以选择插入代码的语言<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183918306.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>而且它还有多种主题：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020070718420064.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>虽然有这么多的<strong>Markdown</strong>编写软件，但是对于像我这种偷懒人，想把写好的文章直接翻译成<strong>Markdown</strong>格式。就不得不选择CSDN了中的<code>写博客</code>，它可以将文章导出为<code>Markdown格式</code></p>
+]]></content>
+      <tags>
+        <tag>其他</tag>
       </tags>
   </entry>
   <entry>
@@ -275,7 +359,9 @@
 <li>如果不是学生和老师，但又不满足<code>5G</code>的空间，那么我们就得用临时邮箱申请</li>
 </ol>
 </div>
-<p>下面我们来说说方法三用到的临时邮箱，(需要科学上网，即fq)<br><a href="http://xkx.me/" class="LinkCard">Jaz mail</a><br>进去可以自定义邮箱，带着得到的邮箱去<a href="https://signup.microsoft.com/signup?sku=student">学生版</a>注册即可，注册都是很简单的，这里就不说了</p>
+<p>下面我们来说说方法三用到的临时邮箱，(需要科学上网，即fq)<br><a href="http://xkx.me/" class="LinkCard">Jaz mail</a><br>进去可以自定义邮箱，带着得到的邮箱去<a href="https://signup.microsoft.com/signup?sku=student">学生版</a>注册即可，注册都是很简单的，这里就不说了.</p>
+<p style="color: #2ee6cd">注意：临时邮箱得到的网盘有翻车可能，重要东西不要放上面</p>
+
 <h2 id="注册Cloudflare"><a href="#注册Cloudflare" class="headerlink" title="注册Cloudflare"></a>注册Cloudflare</h2><p>这里只需要去官网一步一步走就可以了，不是太复杂</p>
 <h2 id="获得代码"><a href="#获得代码" class="headerlink" title="获得代码"></a>获得代码</h2><p>来到<a href="https://logi.im/fodi/get-code/">FODI DEPLOYMENT HELPER</a>，界面如图<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/ondrive1.png"></p>
 <ol>
@@ -311,41 +397,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown编辑器推荐</title>
-    <url>/post/b33e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍三款Markdown编辑器"><a href="#介绍三款Markdown编辑器" class="headerlink" title="介绍三款Markdown编辑器"></a>介绍三款Markdown编辑器</h1><hr>
-<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
-<h3 id="1、MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#1、MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="1、MdEditor是一个在线编辑Markdown文档的编辑器"></a>1、MdEditor是一个在线编辑Markdown文档的编辑器</h3><hr>
-<blockquote>
-<ul>
-<li>它能插入多种代码</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180547979.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<blockquote>
-<ul>
-<li>支持数学公式编辑</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180918512.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<blockquote>
-<ul>
-<li>支持流程图</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181221587.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>它的许多优点等待你的<a href="http://www.mdeditor.com/">发现</a></p>
-<h3 id="2、Cmd-Markdown阅读编辑器"><a href="#2、Cmd-Markdown阅读编辑器" class="headerlink" title="2、Cmd_Markdown阅读编辑器"></a>2、Cmd_Markdown阅读编辑器</h3><hr>
-<p>他同样支持流程图编写、支持Late数学公式，话不多说，上图：</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181849825.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">这里是下载<a href="https://www.zybuluo.com/cmd/">链接</a>，还有在线编辑<a href="https://www.zybuluo.com/mdeditor">网址</a>。</p>
-<h3 id="3、Typora"><a href="#3、Typora" class="headerlink" title="3、Typora"></a>3、Typora</h3><hr>
-<p>这是他的<a href="https://www.typora.io/#">官网</a>。国内下载较慢，可以自备梯子<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802402.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>支持多个版本<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802186.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>我下载的是windows版本（64位）。它的界面虽然简单：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183547720.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>但是它立马写，就可以看到结果，并可以选择插入代码的语言<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183918306.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>而且它还有多种主题：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020070718420064.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>虽然有这么多的<strong>Markdown</strong>编写软件，但是对于像我这种偷懒人，想把写好的文章直接翻译成<strong>Markdown</strong>格式。就不得不选择CSDN了中的<code>写博客</code>，它可以将文章导出为<code>Markdown格式</code></p>
+    <title>爬虫第一课</title>
+    <url>/post/2f13.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
 ]]></content>
       <tags>
-        <tag>其他</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -450,6 +509,68 @@
       </tags>
   </entry>
   <entry>
+    <title>RSS订阅</title>
+    <url>/post/9065.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
+<h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><ul>
+<li><p>首先安装插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure></li>
+<li><p>其次在博客根目录下的<code>_ config.yml</code>文件中添加以下代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br></pre></td></tr></table></figure></li>
+<li><p>最后<code>hexo g、hexo s</code>，在浏览器打开<code>http://localhost:4000/atom.xml</code>就可以看到类似的结果</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/wtew.png"></p>
+<ul>
+<li>以butterfly为例，我们可以在主题目录下的<code>_ config.yml</code>中添加如是代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line"> fas fa-rss: 博客网址&#x2F;atom.xml||RSS</span><br></pre></td></tr></table></figure>
+就可以生成RSS了<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815225732256.png"></li>
+</ul>
+</li>
+</ul>
+<h1 id="RSS阅读器"><a href="#RSS阅读器" class="headerlink" title="RSS阅读器"></a>RSS阅读器</h1><p>推荐使用irreader，下载地址为<br><a href="http://irreader.fatecore.com/" class="LinkCard">irreader</a><br>使用教程为</p>
+<div class="bilibili">
+  <iframe src="//player.bilibili.com/player.html?aid=28215001&bvid=BV18s411w7tF&cid=48771224&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly主题美化之加时钟</title>
+    <url>/post/13d4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="时钟一"><a href="#时钟一" class="headerlink" title="时钟一"></a>时钟一</h2><p>效果图：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200809205035932.gif#pic_center" alt="在这里插入图片描述"></p>
+<ul>
+<li>首先我们下载这两个文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/snap.svg-min.js">snap.svg-min.js</a> 和<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/clock.js">clock.js</a>)，并把它们放到主题目录下的<code>source/js</code>中</li>
+<li>再下载此文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/index.html">index.html</a>)放在目录<code>\themes\butterfly\layout\includes\widget</code>下</li>
+<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下建立文件<code>card_per.pug</code>，内容如下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-aper</span><br><span class="line">  .card-content</span><br><span class="line">    .item-headline</span><br><span class="line">      i.fas.fa-clock-o</span><br><span class="line">      span&#x3D; _p(&#39;aside.card_per&#39;)</span><br><span class="line">      include index.html</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下找到<code>index.pug</code>并在自己想要的位置添加代码</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_per</span><br><span class="line">       !&#x3D;partial(&#39;includes&#x2F;widget&#x2F;card_per&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>找到<code>\themes\butterfly\languages\zh-CN.yml</code>中的aside并添加 <code>card_per: 现在时间</code></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aside:</span><br><span class="line">  articles: 文章</span><br><span class="line">  tags: 标签</span><br><span class="line">  categories: 分类</span><br><span class="line">  card_announcement: 公告</span><br><span class="line">  card_per: 现在时间</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在主题目录下的<code>_config.yml</code>的<code>aside</code>中添加<code>card_per： true</code></li>
+<li>在主题目录下的<code>_config.yml</code>的<code>inject</code>中添加代码</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">  </span><br><span class="line">  bottom:</span><br><span class="line">     - &lt;script src&#x3D;&#39;&#x2F;js&#x2F;snap.svg-min.js&#39;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">     - &lt;script src&#x3D;&quot;&#x2F;js&#x2F;clock.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<p>最后<code>hexo s</code>就可以本地看到结果</p>
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PaddyLin的博客</title>
+    <url>/post/158f.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="我的博客诞生了"><a href="#我的博客诞生了" class="headerlink" title="我的博客诞生了"></a>我的博客诞生了</h2><p>纪念我在2020年7月4日开始接触hexo和github，并学习了搭建博客</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Python之数据可视化</title>
     <url>/post/68a.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="可视化"><a href="#可视化" class="headerlink" title="可视化"></a>可视化</h1><p>数据分析与数据科学项目中常用于数据可视化的Python包</p>
@@ -536,33 +657,6 @@
       </tags>
   </entry>
   <entry>
-    <title>RSS订阅</title>
-    <url>/post/9065.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
-<h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><ul>
-<li><p>首先安装插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure></li>
-<li><p>其次在博客根目录下的<code>_ config.yml</code>文件中添加以下代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br></pre></td></tr></table></figure></li>
-<li><p>最后<code>hexo g、hexo s</code>，在浏览器打开<code>http://localhost:4000/atom.xml</code>就可以看到类似的结果</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/wtew.png"></p>
-<ul>
-<li>以butterfly为例，我们可以在主题目录下的<code>_ config.yml</code>中添加如是代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line"> fas fa-rss: 博客网址&#x2F;atom.xml||RSS</span><br></pre></td></tr></table></figure>
-就可以生成RSS了<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815225732256.png"></li>
-</ul>
-</li>
-</ul>
-<h1 id="RSS阅读器"><a href="#RSS阅读器" class="headerlink" title="RSS阅读器"></a>RSS阅读器</h1><p>推荐使用irreader，下载地址为<br><a href="http://irreader.fatecore.com/" class="LinkCard">irreader</a><br>使用教程为</p>
-<div class="bilibili">
-  <iframe src="//player.bilibili.com/player.html?aid=28215001&bvid=BV18s411w7tF&cid=48771224&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Alexander多项式验证</title>
     <url>/post/d699.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><br>
@@ -581,23 +675,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>爬虫第一课</title>
-    <url>/post/2f13.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PaddyLin的博客</title>
-    <url>/post/158f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="我的博客诞生了"><a href="#我的博客诞生了" class="headerlink" title="我的博客诞生了"></a>我的博客诞生了</h2><p>纪念我在2020年7月4日开始接触hexo和github，并学习了搭建博客</p>
-]]></content>
-  </entry>
-  <entry>
     <title>五款音乐播放器推荐</title>
     <url>/post/abc5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本来已经在自己博客菜单界面加了音乐一栏，这个是用Aplayer插件做出来的，但是只能在单页听歌，若切换页面，音乐会暂停。苦恼于此，我在网上查了很久发现了<code>明月浩空播放器</code>，便一发不可收拾的发现了很多有趣的东西。现在就分享一下我的成果：</p>
@@ -609,35 +686,6 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly主题美化之加时钟</title>
-    <url>/post/13d4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="时钟一"><a href="#时钟一" class="headerlink" title="时钟一"></a>时钟一</h2><p>效果图：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200809205035932.gif#pic_center" alt="在这里插入图片描述"></p>
-<ul>
-<li>首先我们下载这两个文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/snap.svg-min.js">snap.svg-min.js</a> 和<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/clock.js">clock.js</a>)，并把它们放到主题目录下的<code>source/js</code>中</li>
-<li>再下载此文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/index.html">index.html</a>)放在目录<code>\themes\butterfly\layout\includes\widget</code>下</li>
-<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下建立文件<code>card_per.pug</code>，内容如下</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-aper</span><br><span class="line">  .card-content</span><br><span class="line">    .item-headline</span><br><span class="line">      i.fas.fa-clock-o</span><br><span class="line">      span&#x3D; _p(&#39;aside.card_per&#39;)</span><br><span class="line">      include index.html</span><br></pre></td></tr></table></figure>
-<ul>
-<li>在目录<code>\themes\butterfly\layout\includes\widget</code>下找到<code>index.pug</code>并在自己想要的位置添加代码</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_per</span><br><span class="line">       !&#x3D;partial(&#39;includes&#x2F;widget&#x2F;card_per&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>找到<code>\themes\butterfly\languages\zh-CN.yml</code>中的aside并添加 <code>card_per: 现在时间</code></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aside:</span><br><span class="line">  articles: 文章</span><br><span class="line">  tags: 标签</span><br><span class="line">  categories: 分类</span><br><span class="line">  card_announcement: 公告</span><br><span class="line">  card_per: 现在时间</span><br></pre></td></tr></table></figure>
-<ul>
-<li>在主题目录下的<code>_config.yml</code>的<code>aside</code>中添加<code>card_per： true</code></li>
-<li>在主题目录下的<code>_config.yml</code>的<code>inject</code>中添加代码</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">  </span><br><span class="line">  bottom:</span><br><span class="line">     - &lt;script src&#x3D;&#39;&#x2F;js&#x2F;snap.svg-min.js&#39;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">     - &lt;script src&#x3D;&quot;&#x2F;js&#x2F;clock.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<p>最后<code>hexo s</code>就可以本地看到结果</p>
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
@@ -660,18 +708,40 @@
 ]]></content>
   </entry>
   <entry>
-    <title>My love theme</title>
-    <url>/post/fad4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo-theme-fluid"><a href="#Hexo-theme-fluid" class="headerlink" title="Hexo-theme-fluid"></a>Hexo-theme-fluid</h1><p>Github地址<br><a href="https://github.com/fluid-dev/hexo-theme-fluid" class="LinkCard">Fluid</a><br>演示地址<br><a href="https://hexo.fluid-dev.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/clockkk.gif"></p>
-<h1 id="Hexo-theme-volantis"><a href="#Hexo-theme-volantis" class="headerlink" title="Hexo-theme-volantis"></a>Hexo-theme-volantis</h1><p>Github地址</p>
-<p><a href="https://github.com/volantis-x/hexo-theme-volantis" class="LinkCard">Volantis</a></p>
-<p>演示地址</p>
-<p><a href="https://volantis.js.org/" class="LinkCard">演示</a></p>
-<p>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/eder.gif"></p>
-<h1 id="Hexo-theme-matery"><a href="#Hexo-theme-matery" class="headerlink" title="Hexo-theme-matery"></a>Hexo-theme-matery</h1><p>Github地址<br><a href="https://github.com/blinkfox/hexo-theme-matery" class="LinkCard">Matery</a><br>演示地址<br><a href="http://blinkfox.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/h.gif"></p>
-<h1 id="Hexo-theme-icarus"><a href="#Hexo-theme-icarus" class="headerlink" title="Hexo-theme-icarus"></a>Hexo-theme-icarus</h1><p>Github<br><a href="https://github.com/ppoffice/hexo-theme-icarus" class="LinkCard">Icarus</a><br>演示地址（国内访问较慢）<br><a href="https://blog.zhangruipeng.me/hexo-theme-icarus" class="LinkCard">演示</a><br>安装教程<br><a href="https://easyhexo.com/2-Theme-use-and-config/2-12-hexo-theme-icarus/" class="LinkCard">安装</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/1.7fabd81a.png"></p>
-<h1 id="Hexo-theme-Claudia"><a href="#Hexo-theme-Claudia" class="headerlink" title="Hexo-theme-Claudia"></a>Hexo-theme-Claudia</h1><p>Github地址<br><a href="https://github.com/Haojen/hexo-theme-Claudia" class="LinkCard">Claudia</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/claudia-cover.png"></p>
+    <title>博客订阅通知功能</title>
+    <url>/post/91f8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
+<p>在你的博客站点目录执行下面的命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
+<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
+<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
+<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
+<ul>
+<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
+<ul>
+<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
+</li>
+<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
+</li>
+</ul>
+<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
+<li>其中trackingCode是下面图片中黑色下划线的代码</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
+<ul>
+<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
+<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
 ]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
   </entry>
   <entry>
     <title>初学Python之考试三不会题</title>
@@ -735,42 +805,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客订阅通知功能</title>
-    <url>/post/91f8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
-<p>在你的博客站点目录执行下面的命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
-<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
-<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
-<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
-<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
-<ul>
-<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
-<ul>
-<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
-</li>
-<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
-</li>
-</ul>
-<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
-<li>其中trackingCode是下面图片中黑色下划线的代码</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
-<ul>
-<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
-<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>图床搭建</title>
     <url>/post/6272.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>以前我所有的图片链接都是用CSDN生成的，当然也尝试了用Github搭建自己的图床，但是第一次失败了，还浪费了很多时间，所以之后就没管了。渐渐地发现用CSDN生成链接比较麻烦，今天无意间发现<br><a href="https://www.xiaolfeng.xyz/224/%E5%9F%BA%E4%BA%8Epicgo%E6%90%AD%E5%BB%BA%E7%A8%B3%E5%AE%9A%E7%9A%84%E5%9B%BE%E5%BA%8A%EF%BC%88%E6%94%AF%E6%8C%81github%EF%BC%89.html#%E5%89%8D%E8%A8%80" class="LinkCard">基于PicGo搭建稳定的图床（支持GitHub</a><br>这篇文章，然后兴趣兴起，照着又重新搭建自己图床，没想到成功了，特此来记录。</p>
@@ -795,6 +829,20 @@
       <tags>
         <tag>Butterfly</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>My love theme</title>
+    <url>/post/fad4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo-theme-fluid"><a href="#Hexo-theme-fluid" class="headerlink" title="Hexo-theme-fluid"></a>Hexo-theme-fluid</h1><p>Github地址<br><a href="https://github.com/fluid-dev/hexo-theme-fluid" class="LinkCard">Fluid</a><br>演示地址<br><a href="https://hexo.fluid-dev.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/clockkk.gif"></p>
+<h1 id="Hexo-theme-volantis"><a href="#Hexo-theme-volantis" class="headerlink" title="Hexo-theme-volantis"></a>Hexo-theme-volantis</h1><p>Github地址</p>
+<p><a href="https://github.com/volantis-x/hexo-theme-volantis" class="LinkCard">Volantis</a></p>
+<p>演示地址</p>
+<p><a href="https://volantis.js.org/" class="LinkCard">演示</a></p>
+<p>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/eder.gif"></p>
+<h1 id="Hexo-theme-matery"><a href="#Hexo-theme-matery" class="headerlink" title="Hexo-theme-matery"></a>Hexo-theme-matery</h1><p>Github地址<br><a href="https://github.com/blinkfox/hexo-theme-matery" class="LinkCard">Matery</a><br>演示地址<br><a href="http://blinkfox.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/h.gif"></p>
+<h1 id="Hexo-theme-icarus"><a href="#Hexo-theme-icarus" class="headerlink" title="Hexo-theme-icarus"></a>Hexo-theme-icarus</h1><p>Github<br><a href="https://github.com/ppoffice/hexo-theme-icarus" class="LinkCard">Icarus</a><br>演示地址（国内访问较慢）<br><a href="https://blog.zhangruipeng.me/hexo-theme-icarus" class="LinkCard">演示</a><br>安装教程<br><a href="https://easyhexo.com/2-Theme-use-and-config/2-12-hexo-theme-icarus/" class="LinkCard">安装</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/1.7fabd81a.png"></p>
+<h1 id="Hexo-theme-Claudia"><a href="#Hexo-theme-Claudia" class="headerlink" title="Hexo-theme-Claudia"></a>Hexo-theme-Claudia</h1><p>Github地址<br><a href="https://github.com/Haojen/hexo-theme-Claudia" class="LinkCard">Claudia</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/claudia-cover.png"></p>
+]]></content>
   </entry>
   <entry>
     <title>Hexo博客引用B站视频并自动适配</title>
@@ -898,87 +946,6 @@
 ]]></content>
       <tags>
         <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数理逻辑第三章</title>
-    <url>/post/6e6e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一节、推理的形式结构"><a href="#第一节、推理的形式结构" class="headerlink" title="第一节、推理的形式结构"></a>第一节、推理的形式结构</h1><p><strong>定义</strong>:设$A_1$,$A_2$,$\cdots$,$A_k$,B都是命题公式，若对于$A_1$,$A_2$,$\cdots$,$A_k$,B中出现的所有命题变项的任意一组赋值，或者$A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$为假，或者当$A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$ 为真时，B也为真。则称由前提$A_1$,$A_2$,$\cdots$,$A_k$推出结论B的推理是有效的或正确的。</p>
-<ul>
-<li>由前提$A_1$,$A_2$,$\cdots$,$A_k$推B的推理记作{A1， A2，…Ak}|-B ,这称为推理的形式结构。如果推理是正确的，记作{$A_1$,$A_2$,$\cdots$,$A_k$}|=B ，否则记作{$A_1$,$A_2$,$\cdots$,$A_k$}|$\neq$B。</li>
-<li>对于任一组赋值，只有前提为1和结论为0的取值才能使推理不是正确的</li>
-<li>从上一条可看出，推理正确并不是指结论是重言式。</li>
-<li>推理正确与否与诸前提的顺序无关</li>
-</ul>
-<p><strong>定理</strong>:命题公式$A_1$,$A_2$,$\cdots$,$A_k$推B的推理正确当且仅当($A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$) $\to$B为重言式</p>
-<blockquote class="question"> 证明重言式的三种方法：真值表法、等值演算法、主析取式法</blockquote>
-
-<p><strong>九条推理定律(重言蕴含式)</strong>:</p>
-<blockquote>
-<p>A$\Rightarrow$(A$\vee$B)<br>(A$\wedge$B) $\Rightarrow$A; 化简<br>((A$\to$B)$\wedge$A) $\Rightarrow$ B; 假言推理<br>((A$\to$B)$\wedge\rceil$ B) $\Rightarrow\rceil$ A; 拒取式<br>((A$\vee$B)$\wedge\rceil$  A) $\Rightarrow$ B; 析取三段论<br>((A$\to$B)$\wedge$(B$\to$C)) $\Rightarrow$( (A$\to$C); 假言三段论<br>((A$\leftrightarrow$B)$\wedge$(B $\leftrightarrow$ C)) $\Rightarrow$((A $\leftrightarrow$(C); 等价三段论<br>(A$\to$B)$wedge$(C$to$D)$\wedge$(A$\vee$C) $\Rightarrow$(B$\vee$D). 构造性二难 (A$\to$B)$\wedge$($\rceil$A$\to$B)$\wedge$(A$\vee\rceil$ A) $\Rightarrow$ B. (特殊形式)<br>(A$\to$B)$\wedge$(C$\to$D)$\wedge$($\rceil$ B$\vee\rceil$ D) $\Rightarrow$($\rceil$A$\vee\rceil$ C). 破坏性二难</p>
-</blockquote>
-<h1 id="第二节、自然推理系统-P"><a href="#第二节、自然推理系统-P" class="headerlink" title="第二节、自然推理系统 P"></a>第二节、自然推理系统 P</h1><p><strong>定义(形式系统)</strong>: 一个形式系统I 由下列四个部分组成</p>
-<ol>
-<li>非空的字母表集，记作$A(I)$</li>
-<li>$A(I)$符号构造的合式公式集，记作$E(I)$</li>
-<li>$E(I)$中一些特殊的公式组成的公理集,记作$A_X$ $(I)$</li>
-<li>推理规则集，记作$R(I)$</li>
-</ol>
-<p>可以将I记为四元组 &lt; A(I),E(I),$A_X$(I),R(I) &gt;,其中 &lt; A(I),E(I) &gt; 称为I 的形式语言系统， &lt;$A_X$(I),R(I) &gt;称为I 的形式演算系统。</p>
-<p><strong>形式系统分两类</strong>：</p>
-<ol>
-<li><strong>自然推理系统</strong>：特点是从任意给定的前提出发，利用推理规则进行推理演算，得到最后的命题公式是推理的结论，结论可能是重言式，也可能不是</li>
-<li><strong>公理推理系统</strong>：特点是从若干给定的公理出发，利用推理规则进行推理演算，得到的结论是系统中的重言式，称为定理。</li>
-</ol>
-<p>**定义(自然推理系统 P)**：</p>
-<ol>
-<li>字母表:(1)命题变项符号：p,q,r,…(2)联结词符号： $\rceil$,$\wedge$,$\vee$,$\to$,$\leftrightarrow$ （3）括号与逗号</li>
-<li>合式公式</li>
-<li>12条推理规则</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>数理逻辑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数理逻辑第一章</title>
-    <url>/post/f26d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="命题逻辑的基本概念"><a href="#命题逻辑的基本概念" class="headerlink" title="命题逻辑的基本概念"></a>命题逻辑的基本概念</h1><h2 id="命题及符号化"><a href="#命题及符号化" class="headerlink" title="命题及符号化"></a>命题及符号化</h2><p> <strong>命题</strong>：能够判断真假的陈述句<br> <strong>命题的真值</strong>：真、假<br> <strong>真命题</strong>：真值为真的命题<br> <strong>定义</strong>：设p为命题，复合命题“非p”记为$\rceil p$，p为真当且仅当“非p”是假<br><strong>定义</strong>：设p，q为两个命题，复合命题“p并且q”记为$p\wedge$q,$p\wedge$q为真当且仅当p和q都为真<br><strong>定义</strong>设p，q为两个命题，复合命题“p或q”记为$p\vee$q，$p\vee$q为假当且仅当p和q都为假</p>
-<blockquote>
-<p>注意：数理逻辑的析取运算只能表示自然语言里面的“相容或”，自然语言里面的“排斥或”可以写成($p\wedge\rceil$q)$\vee$$(\rceil p\wedge q)$</p>
-</blockquote>
-<p><strong>定义</strong>：设p，q为两个命题，复合命题“如过p则q”记为$p\to$q，$p\to$q为假当且仅当p为真q为假</p>
-<blockquote>
-<p>注意：蕴涵运算$p\to$q表示的逻辑关系是q是p的必要条件，p是q的充分条件。</p>
-</blockquote>
-<p><strong>定义</strong>：设p，q为两个命题，复合命题“p当且仅当q”记为$p\leftrightarrow$q，$p\leftrightarrow$为真当且仅当p、q都为为假或都为假</p>
-<blockquote>
-<p>注意：$p\leftrightarrow q\Leftrightarrow(p\to q)\wedge(q\to p)$</p>
-</blockquote>
-<h2 id="命题公式及其赋值"><a href="#命题公式及其赋值" class="headerlink" title="命题公式及其赋值"></a>命题公式及其赋值</h2><h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><blockquote>
-<p>命题常项：确指或具体的命题<br>命题变项：不确指或抽象的命题<br>命题公式：将命题变项用连接词或圆括号按一定逻辑关系连接起来的符号串</p>
-</blockquote>
-<p><strong>定义</strong>：(合式公式Well-Formed Formulas）<br>（1）单个命题变项是合式公式，并称为原子命题公式。<br>（2）若A是合式公式，则($\rceil$ A)也是合式公式。<br>（3）若A，B是合式公式，则(A $\vee$B)，(A $\wedge$ B)，(A $\to$B)，(A$\leftrightarrow$ B)也是合式公式。<br>（4）由有限次地应用(1)~(3)形成的符号串是合式公式。</p>
-<blockquote>
-<p>注意：合式公式在命题逻辑中也称为命题公式，并简称为公式。</p>
-</blockquote>
-<p><strong>定义</strong>：（公式的层次）<br>（1）若公式A是单个的命题变项，则称A为0层合式公式。<br>（2）若公式A的层次为k，则称A是k层公式。<br>（3）称A是n+1(n≥0)层公式是指下列情况之一：</p>
-<blockquote>
-<p>(a) A= $\rceil$ B,B是n层公式；<br> (b) A=B$\wedge$C,其中B,C分别为i层和j层公式,且n=max(i,j) ；<br> (c ) A=B $\vee$C,其中B,C的层次及n同(b);<br> (d) A=B $\to$C,其中B,C的层次及n同(b);<br> (e) A=B $\leftrightarrow$C,其中B,C的层次及n同(b);</p>
-</blockquote>
-<p><strong>解释</strong>：将公式中的每个命题变项都指定一个具体的命题，抽象的公式就具有了实际的意义，成了命题，具有了真值，这称为公式的解释</p>
-<p><strong>定义</strong>：（公式的赋值）<br>设$p_1 ，p_2 ，…，p_n$是出现在公式A中的全部的命题变项，给$p_1，p_2，…，p_n$各指定一个真值，称为对A的一个赋值。将n个命题变项按下标顺序或字典顺序排列后，赋值就相当于一长为n 的0，1字符串。</p>
-<blockquote>
-<p>若指定的一组值使A的真值为1，则称这组值为A 的成真赋值。<br>若指定的一组值使A的真值为0，则称这组值为A 的成假赋值。</p>
-</blockquote>
-<p><strong>定义</strong>：（公式的分类）<br>（1）若A在其各种赋值下的取值均为真，则称A是重言式或永真式。<br>（2）若A在其各种赋值下的取值均为假，则称A是矛盾式或永假式。<br>（3）若A不是矛盾式，则称A为可满足式。<br>（4）若A是可满足式，且至少存在一个成假赋值，则称A为非重言式的可满足式。</p>
-<blockquote>
-<p>真值表的作用：<br>（1）表示出公式的成真或成假赋值。<br>（2）判断公式类型：<br>(a)若真值表最后一列全为1，则为重言式；<br>(b)若真值表最后一列全为0，则为矛盾式；<br>(c )若真值表最后一列至少有一个1，则为可满足式；<br>(d)若真值表最后一列至少有一个1和一个0，则为非重言的可满足式。</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>数理逻辑</tag>
       </tags>
   </entry>
   <entry>
@@ -1188,36 +1155,43 @@
       </tags>
   </entry>
   <entry>
-    <title>文章加密</title>
-    <url>/post/349b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
-
-<h1 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h1><ul>
-<li>将“ password”添加到您的文章信息头就像这样：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br></pre></td></tr></table></figure>
-
-<h1 id="按标签加密"><a href="#按标签加密" class="headerlink" title="按标签加密"></a>按标签加密</h1><ul>
-<li>修改文章信息头如下：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 加密文章tag</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br><span class="line">abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">message: 您好，这里需要密码。</span><br><span class="line">wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。</span><br><span class="line">wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>对博客根目录_config添加如下字段：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 安全</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  template: &lt;div id&#x3D;&quot;hexo-blog-encrypt&quot; data-wpm&#x3D;&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot; data-whm&#x3D;&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div class&#x3D;&quot;hbe-input-container&quot;&gt;&lt;input type&#x3D;&quot;password&quot; id&#x3D;&quot;hbePass&quot; placeholder&#x3D;&quot;&#123;&#123;hbeMessage&#125;&#125;&quot; &#x2F;&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;&#x2F;label&gt;&lt;div class&#x3D;&quot;bottom-line&quot;&gt;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&lt;script id&#x3D;&quot;hbeData&quot; type&#x3D;&quot;hbeData&quot; data-hmacdigest&#x3D;&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;&#x2F;script&gt;&lt;&#x2F;div&gt;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
-
-<h1 id="对-TOC-文章进行加密"><a href="#对-TOC-文章进行加密" class="headerlink" title="对 TOC 文章进行加密"></a>对 TOC 文章进行加密</h1><p>如果您有一篇文章使用了TOC，您需要修改模板的部分代码。这里以matery主题作为示例：</p>
-<ul>
-<li>在hexo/themes/matery/layout/_partial/article.ejs找到article.ejs。</li>
-<li>然后找到&lt;％post.content％&gt;这段代码，通常在30行左右。</li>
-<li>使用如下的代码来替代它：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc &#x3D;&#x3D; true)&#123; %&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;toc-div&quot; class&#x3D;&quot;toc-article&quot; &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;style&#x3D;&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class&#x3D;&quot;toc-title&quot;&gt;Index&lt;&#x2F;strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
-
+    <title>数理逻辑第一章</title>
+    <url>/post/f26d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="命题逻辑的基本概念"><a href="#命题逻辑的基本概念" class="headerlink" title="命题逻辑的基本概念"></a>命题逻辑的基本概念</h1><h2 id="命题及符号化"><a href="#命题及符号化" class="headerlink" title="命题及符号化"></a>命题及符号化</h2><p> <strong>命题</strong>：能够判断真假的陈述句<br> <strong>命题的真值</strong>：真、假<br> <strong>真命题</strong>：真值为真的命题<br> <strong>定义</strong>：设p为命题，复合命题“非p”记为$\rceil p$，p为真当且仅当“非p”是假<br><strong>定义</strong>：设p，q为两个命题，复合命题“p并且q”记为$p\wedge$q,$p\wedge$q为真当且仅当p和q都为真<br><strong>定义</strong>设p，q为两个命题，复合命题“p或q”记为$p\vee$q，$p\vee$q为假当且仅当p和q都为假</p>
+<blockquote>
+<p>注意：数理逻辑的析取运算只能表示自然语言里面的“相容或”，自然语言里面的“排斥或”可以写成($p\wedge\rceil$q)$\vee$$(\rceil p\wedge q)$</p>
+</blockquote>
+<p><strong>定义</strong>：设p，q为两个命题，复合命题“如过p则q”记为$p\to$q，$p\to$q为假当且仅当p为真q为假</p>
+<blockquote>
+<p>注意：蕴涵运算$p\to$q表示的逻辑关系是q是p的必要条件，p是q的充分条件。</p>
+</blockquote>
+<p><strong>定义</strong>：设p，q为两个命题，复合命题“p当且仅当q”记为$p\leftrightarrow$q，$p\leftrightarrow$为真当且仅当p、q都为为假或都为假</p>
+<blockquote>
+<p>注意：$p\leftrightarrow q\Leftrightarrow(p\to q)\wedge(q\to p)$</p>
+</blockquote>
+<h2 id="命题公式及其赋值"><a href="#命题公式及其赋值" class="headerlink" title="命题公式及其赋值"></a>命题公式及其赋值</h2><h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><blockquote>
+<p>命题常项：确指或具体的命题<br>命题变项：不确指或抽象的命题<br>命题公式：将命题变项用连接词或圆括号按一定逻辑关系连接起来的符号串</p>
+</blockquote>
+<p><strong>定义</strong>：(合式公式Well-Formed Formulas）<br>（1）单个命题变项是合式公式，并称为原子命题公式。<br>（2）若A是合式公式，则($\rceil$ A)也是合式公式。<br>（3）若A，B是合式公式，则(A $\vee$B)，(A $\wedge$ B)，(A $\to$B)，(A$\leftrightarrow$ B)也是合式公式。<br>（4）由有限次地应用(1)~(3)形成的符号串是合式公式。</p>
+<blockquote>
+<p>注意：合式公式在命题逻辑中也称为命题公式，并简称为公式。</p>
+</blockquote>
+<p><strong>定义</strong>：（公式的层次）<br>（1）若公式A是单个的命题变项，则称A为0层合式公式。<br>（2）若公式A的层次为k，则称A是k层公式。<br>（3）称A是n+1(n≥0)层公式是指下列情况之一：</p>
+<blockquote>
+<p>(a) A= $\rceil$ B,B是n层公式；<br> (b) A=B$\wedge$C,其中B,C分别为i层和j层公式,且n=max(i,j) ；<br> (c ) A=B $\vee$C,其中B,C的层次及n同(b);<br> (d) A=B $\to$C,其中B,C的层次及n同(b);<br> (e) A=B $\leftrightarrow$C,其中B,C的层次及n同(b);</p>
+</blockquote>
+<p><strong>解释</strong>：将公式中的每个命题变项都指定一个具体的命题，抽象的公式就具有了实际的意义，成了命题，具有了真值，这称为公式的解释</p>
+<p><strong>定义</strong>：（公式的赋值）<br>设$p_1 ，p_2 ，…，p_n$是出现在公式A中的全部的命题变项，给$p_1，p_2，…，p_n$各指定一个真值，称为对A的一个赋值。将n个命题变项按下标顺序或字典顺序排列后，赋值就相当于一长为n 的0，1字符串。</p>
+<blockquote>
+<p>若指定的一组值使A的真值为1，则称这组值为A 的成真赋值。<br>若指定的一组值使A的真值为0，则称这组值为A 的成假赋值。</p>
+</blockquote>
+<p><strong>定义</strong>：（公式的分类）<br>（1）若A在其各种赋值下的取值均为真，则称A是重言式或永真式。<br>（2）若A在其各种赋值下的取值均为假，则称A是矛盾式或永假式。<br>（3）若A不是矛盾式，则称A为可满足式。<br>（4）若A是可满足式，且至少存在一个成假赋值，则称A为非重言式的可满足式。</p>
+<blockquote>
+<p>真值表的作用：<br>（1）表示出公式的成真或成假赋值。<br>（2）判断公式类型：<br>(a)若真值表最后一列全为1，则为重言式；<br>(b)若真值表最后一列全为0，则为矛盾式；<br>(c )若真值表最后一列至少有一个1，则为可满足式；<br>(d)若真值表最后一列至少有一个1和一个0，则为非重言的可满足式。</p>
+</blockquote>
 ]]></content>
       <tags>
-        <tag>Butterfly</tag>
+        <tag>数理逻辑</tag>
       </tags>
   </entry>
   <entry>
@@ -1336,6 +1310,80 @@
       </tags>
   </entry>
   <entry>
+    <title>文章加密</title>
+    <url>/post/349b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+
+<h1 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h1><ul>
+<li>将“ password”添加到您的文章信息头就像这样：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br></pre></td></tr></table></figure>
+
+<h1 id="按标签加密"><a href="#按标签加密" class="headerlink" title="按标签加密"></a>按标签加密</h1><ul>
+<li>修改文章信息头如下：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 加密文章tag</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br><span class="line">abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">message: 您好，这里需要密码。</span><br><span class="line">wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。</span><br><span class="line">wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>对博客根目录_config添加如下字段：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 安全</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  template: &lt;div id&#x3D;&quot;hexo-blog-encrypt&quot; data-wpm&#x3D;&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot; data-whm&#x3D;&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div class&#x3D;&quot;hbe-input-container&quot;&gt;&lt;input type&#x3D;&quot;password&quot; id&#x3D;&quot;hbePass&quot; placeholder&#x3D;&quot;&#123;&#123;hbeMessage&#125;&#125;&quot; &#x2F;&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;&#x2F;label&gt;&lt;div class&#x3D;&quot;bottom-line&quot;&gt;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&lt;script id&#x3D;&quot;hbeData&quot; type&#x3D;&quot;hbeData&quot; data-hmacdigest&#x3D;&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;&#x2F;script&gt;&lt;&#x2F;div&gt;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
+
+<h1 id="对-TOC-文章进行加密"><a href="#对-TOC-文章进行加密" class="headerlink" title="对 TOC 文章进行加密"></a>对 TOC 文章进行加密</h1><p>如果您有一篇文章使用了TOC，您需要修改模板的部分代码。这里以matery主题作为示例：</p>
+<ul>
+<li>在hexo/themes/matery/layout/_partial/article.ejs找到article.ejs。</li>
+<li>然后找到&lt;％post.content％&gt;这段代码，通常在30行左右。</li>
+<li>使用如下的代码来替代它：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc &#x3D;&#x3D; true)&#123; %&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;toc-div&quot; class&#x3D;&quot;toc-article&quot; &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;style&#x3D;&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class&#x3D;&quot;toc-title&quot;&gt;Index&lt;&#x2F;strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数理逻辑第三章</title>
+    <url>/post/6e6e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一节、推理的形式结构"><a href="#第一节、推理的形式结构" class="headerlink" title="第一节、推理的形式结构"></a>第一节、推理的形式结构</h1><p><strong>定义</strong>:设$A_1$,$A_2$,$\cdots$,$A_k$,B都是命题公式，若对于$A_1$,$A_2$,$\cdots$,$A_k$,B中出现的所有命题变项的任意一组赋值，或者$A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$为假，或者当$A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$ 为真时，B也为真。则称由前提$A_1$,$A_2$,$\cdots$,$A_k$推出结论B的推理是有效的或正确的。</p>
+<ul>
+<li>由前提$A_1$,$A_2$,$\cdots$,$A_k$推B的推理记作{A1， A2，…Ak}|-B ,这称为推理的形式结构。如果推理是正确的，记作{$A_1$,$A_2$,$\cdots$,$A_k$}|=B ，否则记作{$A_1$,$A_2$,$\cdots$,$A_k$}|$\neq$B。</li>
+<li>对于任一组赋值，只有前提为1和结论为0的取值才能使推理不是正确的</li>
+<li>从上一条可看出，推理正确并不是指结论是重言式。</li>
+<li>推理正确与否与诸前提的顺序无关</li>
+</ul>
+<p><strong>定理</strong>:命题公式$A_1$,$A_2$,$\cdots$,$A_k$推B的推理正确当且仅当($A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$) $\to$B为重言式</p>
+<blockquote class="question"> 证明重言式的三种方法：真值表法、等值演算法、主析取式法</blockquote>
+
+<p><strong>九条推理定律(重言蕴含式)</strong>:</p>
+<blockquote>
+<p>A$\Rightarrow$(A$\vee$B)<br>(A$\wedge$B) $\Rightarrow$A; 化简<br>((A$\to$B)$\wedge$A) $\Rightarrow$ B; 假言推理<br>((A$\to$B)$\wedge\rceil$ B) $\Rightarrow\rceil$ A; 拒取式<br>((A$\vee$B)$\wedge\rceil$  A) $\Rightarrow$ B; 析取三段论<br>((A$\to$B)$\wedge$(B$\to$C)) $\Rightarrow$( (A$\to$C); 假言三段论<br>((A$\leftrightarrow$B)$\wedge$(B $\leftrightarrow$ C)) $\Rightarrow$((A $\leftrightarrow$(C); 等价三段论<br>(A$\to$B)$wedge$(C$to$D)$\wedge$(A$\vee$C) $\Rightarrow$(B$\vee$D). 构造性二难 (A$\to$B)$\wedge$($\rceil$A$\to$B)$\wedge$(A$\vee\rceil$ A) $\Rightarrow$ B. (特殊形式)<br>(A$\to$B)$\wedge$(C$\to$D)$\wedge$($\rceil$ B$\vee\rceil$ D) $\Rightarrow$($\rceil$A$\vee\rceil$ C). 破坏性二难</p>
+</blockquote>
+<h1 id="第二节、自然推理系统-P"><a href="#第二节、自然推理系统-P" class="headerlink" title="第二节、自然推理系统 P"></a>第二节、自然推理系统 P</h1><p><strong>定义(形式系统)</strong>: 一个形式系统I 由下列四个部分组成</p>
+<ol>
+<li>非空的字母表集，记作$A(I)$</li>
+<li>$A(I)$符号构造的合式公式集，记作$E(I)$</li>
+<li>$E(I)$中一些特殊的公式组成的公理集,记作$A_X$ $(I)$</li>
+<li>推理规则集，记作$R(I)$</li>
+</ol>
+<p>可以将I记为四元组 &lt; A(I),E(I),$A_X$(I),R(I) &gt;,其中 &lt; A(I),E(I) &gt; 称为I 的形式语言系统， &lt;$A_X$(I),R(I) &gt;称为I 的形式演算系统。</p>
+<p><strong>形式系统分两类</strong>：</p>
+<ol>
+<li><strong>自然推理系统</strong>：特点是从任意给定的前提出发，利用推理规则进行推理演算，得到最后的命题公式是推理的结论，结论可能是重言式，也可能不是</li>
+<li><strong>公理推理系统</strong>：特点是从若干给定的公理出发，利用推理规则进行推理演算，得到的结论是系统中的重言式，称为定理。</li>
+</ol>
+<p>**定义(自然推理系统 P)**：</p>
+<ol>
+<li>字母表:(1)命题变项符号：p,q,r,…(2)联结词符号： $\rceil$,$\wedge$,$\vee$,$\to$,$\leftrightarrow$ （3）括号与逗号</li>
+<li>合式公式</li>
+<li>12条推理规则</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>数理逻辑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>画廊制作</title>
     <url>/post/94a8.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="建立相册经历"><a href="#建立相册经历" class="headerlink" title="建立相册经历"></a>建立相册经历</h1><p>本人比较轴，为了建立博客相册，在百度、360等浏览器上找了多种方法，也试了很多方法，但是多于不太懂前端的人来说，即使这种方法失败了，也不知道原因。但是建立相册的决心不倒，我花了四天的时间一直捣鼓这个东西终于找到了下面这种方法，但是我依葫芦画瓢做了一番，发现还是不能实现，于是稍微改了其中一些代码，总算是完成了(ಥ _ ಥ)(ಥ _ ಥ)</p>
@@ -1403,22 +1451,6 @@
       </tags>
   </entry>
   <entry>
-    <title>答案</title>
-    <url>/post/3e0e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note primary">
-             📚    🚀   📑 🛠 ⚔️ ❓ ⚡️ ✨ 🤞  🦋 📖 
-</div>
-<p align='center'>人生百态，各有答案</p>
-
-<div class="bilibili">
-  <iframe src="//player.bilibili.com/player.html?aid=711411920&bvid=BV1wD4y1D7ni&cid=215046967&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-]]></content>
-      <tags>
-        <tag>视频</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>红豆寄相思</title>
     <url>/post/aa22.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="相思"><a href="#相思" class="headerlink" title="相思"></a>相思</h1><p align="center">相思    【唐】 王维</p>
@@ -1453,6 +1485,22 @@
       </tags>
   </entry>
   <entry>
+    <title>答案</title>
+    <url>/post/3e0e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note primary">
+             📚    🚀   📑 🛠 ⚔️ ❓ ⚡️ ✨ 🤞  🦋 📖 
+</div>
+<p align='center'>人生百态，各有答案</p>
+
+<div class="bilibili">
+  <iframe src="//player.bilibili.com/player.html?aid=711411920&bvid=BV1wD4y1D7ni&cid=215046967&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+]]></content>
+      <tags>
+        <tag>视频</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>脚底自定义标签</title>
     <url>/post/708f.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>我们找到<code>\butterfly\source\css\_global</code>下的<code>function.styl</code>文件,任意位置添加代码</p>
@@ -1460,36 +1508,6 @@
 <h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>找到<code>butterfly\layout\includes</code>下的<code>footer.pug</code>文件,添加下面代码即可</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  if theme.footer.custom_text</span><br><span class="line">    .footer_custom_text!&#x3D;&#96;$&#123;theme.footer.custom_text&#125;&#96; </span><br><span class="line">-------------------------------------------------------------------</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;hexo.io&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;由 Hexo 强力驱动&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Powered</span><br><span class="line">      span.badge-value.bg-blue Hexo</span><br><span class="line">  </span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;github.com&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;静态网页托管于 GitHub Pages 和 Coding Pages&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Hosted</span><br><span class="line">      span.badge-value.bg-brightgreen GitHub &amp; Coding</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;www.jsdelivr.com&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;jsDelivr 提供 CDN 加速服务&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject CDN</span><br><span class="line">      span.badge-value.bg-orange jsDelivr</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject</span><br><span class="line">        i.fa.fa-copyright</span><br><span class="line">      span.badge-value.bg-gradient BY-NC-SA 4.0</span><br><span class="line"></span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;github.com&#x2F;jerryc127&#x2F;hexo-theme-butterfly&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;主题&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Theme</span><br><span class="line">      span.badge-value.bg-blueviolet Butterfly  </span><br><span class="line">--------------------------------------------------------------------------</span><br><span class="line">  if theme.footer.ICP.enable</span><br><span class="line">    .icp</span><br><span class="line">      a(href&#x3D;theme.footer.ICP.url)</span><br><span class="line">        if theme.footer.ICP.icon</span><br><span class="line">          img.icp-icon(src&#x3D;url_for(theme.footer.ICP.icon))</span><br><span class="line">        span&#x3D;theme.footer.ICP.text</span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自定义“引用”板块</title>
-    <url>/post/3a4f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="自定义“引用”板块"><a href="#自定义“引用”板块" class="headerlink" title="自定义“引用”板块"></a>自定义“引用”板块</h1><h2 id="启发"><a href="#启发" class="headerlink" title="启发"></a>启发</h2><hr>
-<p>自从为了方便编写Md文件，我一直在用CSDN写文章，但我一直困扰于如何使用更加引人注目的<code>引用板块</code>，因为在CSDN中引用板块样子如下</p>
-<blockquote>
-<p>内容:又学废了</p>
-</blockquote>
-<p>经过多方努力，我终于在大佬reuixiy的博客<br><a href="https://io-oi.me/tech/hexo-next-optimization/#%E4%B8%BB%E9%A2%98%E8%87%AA%E5%B8%A6%E6%A0%B7%E5%BC%8F-%E4%BB%A3%E7%A0%81%E5%9D%97%E9%AB%98%E4%BA%AE" class="LinkCard">reuixiy</a><br>里面找到了答案。首先在文件位置：<code>/blog/themes/next/source/css/_custom/custom.styl </code>中添加如下代码</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">blockquote</span><span class="selector-class">.question</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#BA55D3</span>;</span><br><span class="line">    <span class="attribute">border-left</span>: <span class="number">4px</span> solid <span class="built_in">rgb</span>(<span class="number">16</span>, <span class="number">152</span>, <span class="number">173</span>);</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">250</span>, <span class="number">240</span>, <span class="number">230</span>);</span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>其中</p>
-<p>1）文字颜色改 <code>color</code> 的值<br>2）背景色改 <code>background-color</code> 的值<br>3）边框颜色和粗细改 <code>border-left</code> 的值</p>
-<p>在文章中这样使用：</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;question&quot;&gt;内容：又学废了&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure>
-<p>结果为</p>
-<blockquote class="question">内容：又学废了</blockquote>
-
-<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><hr>
-<p>基于对上面的理解。我又添加了如下代码</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">blockquote</span><span class="selector-class">.moli</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>:  <span class="number">#FF7F00</span>;</span><br><span class="line">    <span class="attribute">border-left</span>: <span class="number">4px</span> solid <span class="built_in">rgb</span>(<span class="number">16</span>, <span class="number">152</span>, <span class="number">173</span>);</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">205</span>, <span class="number">197</span>, <span class="number">191</span>);</span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>在文章中运行结果为：</p>
-<blockquote class="moli">内容：又学废了</blockquote>
-
-<p>最后附上RGB颜色对照表：</p>
-<p><a href="https://tool.oschina.net/commons?type=3" class="LinkCard">RGB</a></p>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
@@ -1570,6 +1588,36 @@
 <p> 如图是我自己的歌单</p>
 <p> <img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200708194658547.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">里面并没有<code>生成外链播放器</code>，那么我们点击<code>分享</code>键并分享，然后点击动态并找到刚才分享的歌单，点进去<br> <img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200708194958698.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br> 我们就可以看到<code>生成外链播放器</code></p>
 <p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200708195127108.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自定义“引用”板块</title>
+    <url>/post/3a4f.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="自定义“引用”板块"><a href="#自定义“引用”板块" class="headerlink" title="自定义“引用”板块"></a>自定义“引用”板块</h1><h2 id="启发"><a href="#启发" class="headerlink" title="启发"></a>启发</h2><hr>
+<p>自从为了方便编写Md文件，我一直在用CSDN写文章，但我一直困扰于如何使用更加引人注目的<code>引用板块</code>，因为在CSDN中引用板块样子如下</p>
+<blockquote>
+<p>内容:又学废了</p>
+</blockquote>
+<p>经过多方努力，我终于在大佬reuixiy的博客<br><a href="https://io-oi.me/tech/hexo-next-optimization/#%E4%B8%BB%E9%A2%98%E8%87%AA%E5%B8%A6%E6%A0%B7%E5%BC%8F-%E4%BB%A3%E7%A0%81%E5%9D%97%E9%AB%98%E4%BA%AE" class="LinkCard">reuixiy</a><br>里面找到了答案。首先在文件位置：<code>/blog/themes/next/source/css/_custom/custom.styl </code>中添加如下代码</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">blockquote</span><span class="selector-class">.question</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#BA55D3</span>;</span><br><span class="line">    <span class="attribute">border-left</span>: <span class="number">4px</span> solid <span class="built_in">rgb</span>(<span class="number">16</span>, <span class="number">152</span>, <span class="number">173</span>);</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">250</span>, <span class="number">240</span>, <span class="number">230</span>);</span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中</p>
+<p>1）文字颜色改 <code>color</code> 的值<br>2）背景色改 <code>background-color</code> 的值<br>3）边框颜色和粗细改 <code>border-left</code> 的值</p>
+<p>在文章中这样使用：</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;question&quot;&gt;内容：又学废了&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure>
+<p>结果为</p>
+<blockquote class="question">内容：又学废了</blockquote>
+
+<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><hr>
+<p>基于对上面的理解。我又添加了如下代码</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">blockquote</span><span class="selector-class">.moli</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>:  <span class="number">#FF7F00</span>;</span><br><span class="line">    <span class="attribute">border-left</span>: <span class="number">4px</span> solid <span class="built_in">rgb</span>(<span class="number">16</span>, <span class="number">152</span>, <span class="number">173</span>);</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">205</span>, <span class="number">197</span>, <span class="number">191</span>);</span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>在文章中运行结果为：</p>
+<blockquote class="moli">内容：又学废了</blockquote>
+
+<p>最后附上RGB颜色对照表：</p>
+<p><a href="https://tool.oschina.net/commons?type=3" class="LinkCard">RGB</a></p>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
