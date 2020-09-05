@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.paddylin.top/post/d2d2faa.html</loc>
+    
+    <lastmod>2020-09-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.paddylin.top/about/index.html</loc>
     
     <lastmod>2020-09-01</lastmod>
@@ -397,6 +404,13 @@
   
   <url>
     <loc>http://www.paddylin.top/tags/Hexo/</loc>
+    <lastmod>2020-09-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.paddylin.top/tags/%E7%BD%91%E7%9B%98/</loc>
     <lastmod>2020-09-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
