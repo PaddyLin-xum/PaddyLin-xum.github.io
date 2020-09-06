@@ -53,7 +53,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Butterfly改便鼠标右键功能</title>
+    <title>Butterfly增加鼠标右键功能</title>
     <url>/post/7ff9.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p style="font-size:25px">🐭 创建文件</p>
 
@@ -308,44 +308,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown编辑器推荐</title>
-    <url>/post/b33e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍三款Markdown编辑器"><a href="#介绍三款Markdown编辑器" class="headerlink" title="介绍三款Markdown编辑器"></a>介绍三款Markdown编辑器</h1><hr>
-<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
-<h3 id="1、MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#1、MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="1、MdEditor是一个在线编辑Markdown文档的编辑器"></a>1、MdEditor是一个在线编辑Markdown文档的编辑器</h3><hr>
-<blockquote>
-<ul>
-<li>它能插入多种代码</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180547979.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<blockquote>
-<ul>
-<li>支持数学公式编辑</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180918512.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<blockquote>
-<ul>
-<li>支持流程图</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181221587.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>它的许多优点等待你的<a href="http://www.mdeditor.com/">发现</a></p>
-<h3 id="2、Cmd-Markdown阅读编辑器"><a href="#2、Cmd-Markdown阅读编辑器" class="headerlink" title="2、Cmd_Markdown阅读编辑器"></a>2、Cmd_Markdown阅读编辑器</h3><hr>
-<p>他同样支持流程图编写、支持Late数学公式，话不多说，上图：</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181849825.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">这里是下载<a href="https://www.zybuluo.com/cmd/">链接</a>，还有在线编辑<a href="https://www.zybuluo.com/mdeditor">网址</a>。</p>
-<h3 id="3、Typora"><a href="#3、Typora" class="headerlink" title="3、Typora"></a>3、Typora</h3><hr>
-<p>这是他的<a href="https://www.typora.io/#">官网</a>。国内下载较慢，可以自备梯子<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802402.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>支持多个版本<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802186.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>我下载的是windows版本（64位）。它的界面虽然简单：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183547720.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>但是它立马写，就可以看到结果，并可以选择插入代码的语言<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183918306.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>而且它还有多种主题：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020070718420064.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>虽然有这么多的<strong>Markdown</strong>编写软件，但是对于像我这种偷懒人，想把写好的文章直接翻译成<strong>Markdown</strong>格式。就不得不选择CSDN了中的<code>写博客</code>，它可以将文章导出为<code>Markdown格式</code></p>
-]]></content>
-      <tags>
-        <tag>其他</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Onedrive零成本且最简单搭建网盘</title>
     <url>/post/d2d2faa.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h1><ol>
@@ -394,6 +356,44 @@
 ]]></content>
       <tags>
         <tag>网盘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown编辑器推荐</title>
+    <url>/post/b33e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍三款Markdown编辑器"><a href="#介绍三款Markdown编辑器" class="headerlink" title="介绍三款Markdown编辑器"></a>介绍三款Markdown编辑器</h1><hr>
+<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
+<h3 id="1、MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#1、MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="1、MdEditor是一个在线编辑Markdown文档的编辑器"></a>1、MdEditor是一个在线编辑Markdown文档的编辑器</h3><hr>
+<blockquote>
+<ul>
+<li>它能插入多种代码</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180547979.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<blockquote>
+<ul>
+<li>支持数学公式编辑</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180918512.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<blockquote>
+<ul>
+<li>支持流程图</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181221587.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>它的许多优点等待你的<a href="http://www.mdeditor.com/">发现</a></p>
+<h3 id="2、Cmd-Markdown阅读编辑器"><a href="#2、Cmd-Markdown阅读编辑器" class="headerlink" title="2、Cmd_Markdown阅读编辑器"></a>2、Cmd_Markdown阅读编辑器</h3><hr>
+<p>他同样支持流程图编写、支持Late数学公式，话不多说，上图：</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181849825.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">这里是下载<a href="https://www.zybuluo.com/cmd/">链接</a>，还有在线编辑<a href="https://www.zybuluo.com/mdeditor">网址</a>。</p>
+<h3 id="3、Typora"><a href="#3、Typora" class="headerlink" title="3、Typora"></a>3、Typora</h3><hr>
+<p>这是他的<a href="https://www.typora.io/#">官网</a>。国内下载较慢，可以自备梯子<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802402.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>支持多个版本<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802186.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>我下载的是windows版本（64位）。它的界面虽然简单：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183547720.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>但是它立马写，就可以看到结果，并可以选择插入代码的语言<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183918306.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>而且它还有多种主题：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020070718420064.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>虽然有这么多的<strong>Markdown</strong>编写软件，但是对于像我这种偷懒人，想把写好的文章直接翻译成<strong>Markdown</strong>格式。就不得不选择CSDN了中的<code>写博客</code>，它可以将文章导出为<code>Markdown格式</code></p>
+]]></content>
+      <tags>
+        <tag>其他</tag>
       </tags>
   </entry>
   <entry>
@@ -509,6 +509,33 @@
       </tags>
   </entry>
   <entry>
+    <title>RSS订阅</title>
+    <url>/post/9065.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
+<h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><ul>
+<li><p>首先安装插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure></li>
+<li><p>其次在博客根目录下的<code>_ config.yml</code>文件中添加以下代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br></pre></td></tr></table></figure></li>
+<li><p>最后<code>hexo g、hexo s</code>，在浏览器打开<code>http://localhost:4000/atom.xml</code>就可以看到类似的结果</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/wtew.png"></p>
+<ul>
+<li>以butterfly为例，我们可以在主题目录下的<code>_ config.yml</code>中添加如是代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line"> fas fa-rss: 博客网址&#x2F;atom.xml||RSS</span><br></pre></td></tr></table></figure>
+就可以生成RSS了<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815225732256.png"></li>
+</ul>
+</li>
+</ul>
+<h1 id="RSS阅读器"><a href="#RSS阅读器" class="headerlink" title="RSS阅读器"></a>RSS阅读器</h1><p>推荐使用irreader，下载地址为<br><a href="http://irreader.fatecore.com/" class="LinkCard">irreader</a><br>使用教程为</p>
+<div class="bilibili">
+  <iframe src="//player.bilibili.com/player.html?aid=28215001&bvid=BV18s411w7tF&cid=48771224&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Butterfly主题美化之加时钟</title>
     <url>/post/13d4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="时钟一"><a href="#时钟一" class="headerlink" title="时钟一"></a>时钟一</h2><p>效果图：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200809205035932.gif#pic_center" alt="在这里插入图片描述"></p>
@@ -535,33 +562,6 @@
 ]]></content>
       <tags>
         <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RSS订阅</title>
-    <url>/post/9065.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
-<h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><ul>
-<li><p>首先安装插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure></li>
-<li><p>其次在博客根目录下的<code>_ config.yml</code>文件中添加以下代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br></pre></td></tr></table></figure></li>
-<li><p>最后<code>hexo g、hexo s</code>，在浏览器打开<code>http://localhost:4000/atom.xml</code>就可以看到类似的结果</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/wtew.png"></p>
-<ul>
-<li>以butterfly为例，我们可以在主题目录下的<code>_ config.yml</code>中添加如是代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line"> fas fa-rss: 博客网址&#x2F;atom.xml||RSS</span><br></pre></td></tr></table></figure>
-就可以生成RSS了<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815225732256.png"></li>
-</ul>
-</li>
-</ul>
-<h1 id="RSS阅读器"><a href="#RSS阅读器" class="headerlink" title="RSS阅读器"></a>RSS阅读器</h1><p>推荐使用irreader，下载地址为<br><a href="http://irreader.fatecore.com/" class="LinkCard">irreader</a><br>使用教程为</p>
-<div class="bilibili">
-  <iframe src="//player.bilibili.com/player.html?aid=28215001&bvid=BV18s411w7tF&cid=48771224&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -949,6 +949,25 @@
       </tags>
   </entry>
   <entry>
+    <title>改造博客</title>
+    <url>/post/de46.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>当对以前的博客出现了审美疲劳后，我又又又到处去浏览别人的博客，试图找一些新的博客改造，终于出现了现在的样式，不知道多久后我又会改博客了！！！😛😛😛😛😛</p>
+<h1 id="改造前"><a href="#改造前" class="headerlink" title="改造前"></a>改造前</h1><ul>
+<li><p>主页<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai.gif"></p>
+</li>
+<li><p>收藏网站页<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai4.gif"></p>
+</li>
+</ul>
+<h1 id="改造后"><a href="#改造后" class="headerlink" title="改造后"></a>改造后</h1><ul>
+<li><p>主页<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai2.gif"></p>
+</li>
+<li><p>收藏网站页</p>
+</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai3.gif"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>数理逻辑第一章</title>
     <url>/post/f26d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="命题逻辑的基本概念"><a href="#命题逻辑的基本概念" class="headerlink" title="命题逻辑的基本概念"></a>命题逻辑的基本概念</h1><h2 id="命题及符号化"><a href="#命题及符号化" class="headerlink" title="命题及符号化"></a>命题及符号化</h2><p> <strong>命题</strong>：能够判断真假的陈述句<br> <strong>命题的真值</strong>：真、假<br> <strong>真命题</strong>：真值为真的命题<br> <strong>定义</strong>：设p为命题，复合命题“非p”记为$\rceil p$，p为真当且仅当“非p”是假<br><strong>定义</strong>：设p，q为两个命题，复合命题“p并且q”记为$p\wedge$q,$p\wedge$q为真当且仅当p和q都为真<br><strong>定义</strong>设p，q为两个命题，复合命题“p或q”记为$p\vee$q，$p\vee$q为假当且仅当p和q都为假</p>
@@ -989,25 +1008,6 @@
       </tags>
   </entry>
   <entry>
-    <title>改造博客</title>
-    <url>/post/de46.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>当对以前的博客出现了审美疲劳后，我又又又到处去浏览别人的博客，试图找一些新的博客改造，终于出现了现在的样式，不知道多久后我又会改博客了！！！😛😛😛😛😛</p>
-<h1 id="改造前"><a href="#改造前" class="headerlink" title="改造前"></a>改造前</h1><ul>
-<li><p>主页<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai.gif"></p>
-</li>
-<li><p>收藏网站页<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai4.gif"></p>
-</li>
-</ul>
-<h1 id="改造后"><a href="#改造后" class="headerlink" title="改造后"></a>改造后</h1><ul>
-<li><p>主页<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai2.gif"></p>
-</li>
-<li><p>收藏网站页</p>
-</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/gai3.gif"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>数理逻辑第三章</title>
     <url>/post/6e6e.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一节、推理的形式结构"><a href="#第一节、推理的形式结构" class="headerlink" title="第一节、推理的形式结构"></a>第一节、推理的形式结构</h1><p><strong>定义</strong>:设$A_1$,$A_2$,$\cdots$,$A_k$,B都是命题公式，若对于$A_1$,$A_2$,$\cdots$,$A_k$,B中出现的所有命题变项的任意一组赋值，或者$A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$为假，或者当$A_1$ $\wedge$ $A_2$ $\wedge$ $\cdots$ $\wedge$ $A_k$ 为真时，B也为真。则称由前提$A_1$,$A_2$,$\cdots$,$A_k$推出结论B的推理是有效的或正确的。</p>
@@ -1046,39 +1046,6 @@
 ]]></content>
       <tags>
         <tag>数理逻辑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文章加密</title>
-    <url>/post/349b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
-
-<h1 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h1><ul>
-<li>将“ password”添加到您的文章信息头就像这样：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br></pre></td></tr></table></figure>
-
-<h1 id="按标签加密"><a href="#按标签加密" class="headerlink" title="按标签加密"></a>按标签加密</h1><ul>
-<li>修改文章信息头如下：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 加密文章tag</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br><span class="line">abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">message: 您好，这里需要密码。</span><br><span class="line">wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。</span><br><span class="line">wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>对博客根目录_config添加如下字段：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 安全</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  template: &lt;div id&#x3D;&quot;hexo-blog-encrypt&quot; data-wpm&#x3D;&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot; data-whm&#x3D;&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div class&#x3D;&quot;hbe-input-container&quot;&gt;&lt;input type&#x3D;&quot;password&quot; id&#x3D;&quot;hbePass&quot; placeholder&#x3D;&quot;&#123;&#123;hbeMessage&#125;&#125;&quot; &#x2F;&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;&#x2F;label&gt;&lt;div class&#x3D;&quot;bottom-line&quot;&gt;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&lt;script id&#x3D;&quot;hbeData&quot; type&#x3D;&quot;hbeData&quot; data-hmacdigest&#x3D;&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;&#x2F;script&gt;&lt;&#x2F;div&gt;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
-
-<h1 id="对-TOC-文章进行加密"><a href="#对-TOC-文章进行加密" class="headerlink" title="对 TOC 文章进行加密"></a>对 TOC 文章进行加密</h1><p>如果您有一篇文章使用了TOC，您需要修改模板的部分代码。这里以matery主题作为示例：</p>
-<ul>
-<li>在hexo/themes/matery/layout/_partial/article.ejs找到article.ejs。</li>
-<li>然后找到&lt;％post.content％&gt;这段代码，通常在30行左右。</li>
-<li>使用如下的代码来替代它：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc &#x3D;&#x3D; true)&#123; %&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;toc-div&quot; class&#x3D;&quot;toc-article&quot; &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;style&#x3D;&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class&#x3D;&quot;toc-title&quot;&gt;Index&lt;&#x2F;strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
@@ -1501,7 +1468,7 @@
       </tags>
   </entry>
   <entry>
-    <title>脚底自定义标签</title>
+    <title>Butterfly脚底自定义标签</title>
     <url>/post/708f.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>我们找到<code>\butterfly\source\css\_global</code>下的<code>function.styl</code>文件,任意位置添加代码</p>
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*底部信息*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> &#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">text-shadow</span>: none;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#abbac3</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">12px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.badge-subject</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#4d4d4d</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">4px</span> <span class="number">4px</span> <span class="number">4px</span> <span class="number">6px</span>;</span><br><span class="line">    <span class="attribute">border-top-left-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-left-radius</span>: <span class="number">4px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.badge-value</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">4px</span> <span class="number">6px</span> <span class="number">4px</span> <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">4px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-blue</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#007ec6</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-brightgreen</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#4dc820</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-orange</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: orange;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-gradient</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(to right,#<span class="number">3</span>ca5f6,#a86af9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-blueviolet</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#8833d7</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -1510,7 +1477,7 @@
 
 ]]></content>
       <tags>
-        <tag>Hexo</tag>
+        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
@@ -1541,6 +1508,39 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章加密</title>
+    <url>/post/349b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+
+<h1 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h1><ul>
+<li>将“ password”添加到您的文章信息头就像这样：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br></pre></td></tr></table></figure>
+
+<h1 id="按标签加密"><a href="#按标签加密" class="headerlink" title="按标签加密"></a>按标签加密</h1><ul>
+<li>修改文章信息头如下：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 加密文章tag</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br><span class="line">abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">message: 您好，这里需要密码。</span><br><span class="line">wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。</span><br><span class="line">wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>对博客根目录_config添加如下字段：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 安全</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  template: &lt;div id&#x3D;&quot;hexo-blog-encrypt&quot; data-wpm&#x3D;&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot; data-whm&#x3D;&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div class&#x3D;&quot;hbe-input-container&quot;&gt;&lt;input type&#x3D;&quot;password&quot; id&#x3D;&quot;hbePass&quot; placeholder&#x3D;&quot;&#123;&#123;hbeMessage&#125;&#125;&quot; &#x2F;&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;&#x2F;label&gt;&lt;div class&#x3D;&quot;bottom-line&quot;&gt;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&lt;script id&#x3D;&quot;hbeData&quot; type&#x3D;&quot;hbeData&quot; data-hmacdigest&#x3D;&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;&#x2F;script&gt;&lt;&#x2F;div&gt;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
+
+<h1 id="对-TOC-文章进行加密"><a href="#对-TOC-文章进行加密" class="headerlink" title="对 TOC 文章进行加密"></a>对 TOC 文章进行加密</h1><p>如果您有一篇文章使用了TOC，您需要修改模板的部分代码。这里以matery主题作为示例：</p>
+<ul>
+<li>在hexo/themes/matery/layout/_partial/article.ejs找到article.ejs。</li>
+<li>然后找到&lt;％post.content％&gt;这段代码，通常在30行左右。</li>
+<li>使用如下的代码来替代它：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc &#x3D;&#x3D; true)&#123; %&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;toc-div&quot; class&#x3D;&quot;toc-article&quot; &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;style&#x3D;&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class&#x3D;&quot;toc-title&quot;&gt;Index&lt;&#x2F;strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>

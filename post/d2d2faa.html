@@ -228,12 +228,27 @@ window.addEventListener('load',endLoading)</script><div class="js-pjax"><script>
       false && mermaid.init()
     })
   }
-}</script><script>function loadValine () {
+}</script><script>var requestSetting = function (from,set) {
+  var from = from
+  var setting = set.split(',').filter(function(item){
+  return from.indexOf(item) > -1
+  });
+  setting = setting.length == 0 ? from :setting;
+  return setting
+}
+
+var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
+let friends = '6a565e6c47127afdd40d5d46089db2c5'.split(',')
+let master = '3e440f8724c5acd24d0a4fab6eb6a6d1'.split(',')
+let tagMeta = '博主,小伙伴,访客'.split(',')
+
+function loadValine () {
   function initValine () {
     window.valine = new Valine({
       el: '#vcomment',
-      appId: 'OUCMtOBo79jERvniRk3JDri6-gzGzoHsz',
-      appKey: 'uD8EeO34CUYMlwetpQUguOHj',
+      appId: '5cGbuysygB8cefOdlcAOsSAJ-MdYXbMMI',
+      appKey: 'YXcGYTiLA29SKr1ieyBmznay',
       placeholder: '拖动图片到此可以上传图片哦！！！',
       avatar: 'monsterid',
       meta: 'nick,mail,link'.split(','),
@@ -245,12 +260,15 @@ window.addEventListener('load',endLoading)</script><div class="js-pjax"><script>
       emojiMaps: "",
       enableQQ: true,
       path: window.location.pathname,
+      master: master,
+      friends: friends,
+      tagMeta: tagMeta,
     });
     if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
   }
 
   if (typeof Valine === 'function') initValine() 
-  else $.getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
+  else $.getScript('https://cdn.jsdelivr.net/gh/HCLonely/Valine@1.4.14/dist/Valine.min.js', initValine)
 }
 
 if ('Valine' === 'Valine' || !true) {
