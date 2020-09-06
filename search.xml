@@ -308,6 +308,44 @@
       </tags>
   </entry>
   <entry>
+    <title>Markdown编辑器推荐</title>
+    <url>/post/b33e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍三款Markdown编辑器"><a href="#介绍三款Markdown编辑器" class="headerlink" title="介绍三款Markdown编辑器"></a>介绍三款Markdown编辑器</h1><hr>
+<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
+<h3 id="1、MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#1、MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="1、MdEditor是一个在线编辑Markdown文档的编辑器"></a>1、MdEditor是一个在线编辑Markdown文档的编辑器</h3><hr>
+<blockquote>
+<ul>
+<li>它能插入多种代码</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180547979.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<blockquote>
+<ul>
+<li>支持数学公式编辑</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180918512.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<blockquote>
+<ul>
+<li>支持流程图</li>
+</ul>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181221587.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>它的许多优点等待你的<a href="http://www.mdeditor.com/">发现</a></p>
+<h3 id="2、Cmd-Markdown阅读编辑器"><a href="#2、Cmd-Markdown阅读编辑器" class="headerlink" title="2、Cmd_Markdown阅读编辑器"></a>2、Cmd_Markdown阅读编辑器</h3><hr>
+<p>他同样支持流程图编写、支持Late数学公式，话不多说，上图：</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181849825.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">这里是下载<a href="https://www.zybuluo.com/cmd/">链接</a>，还有在线编辑<a href="https://www.zybuluo.com/mdeditor">网址</a>。</p>
+<h3 id="3、Typora"><a href="#3、Typora" class="headerlink" title="3、Typora"></a>3、Typora</h3><hr>
+<p>这是他的<a href="https://www.typora.io/#">官网</a>。国内下载较慢，可以自备梯子<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802402.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>支持多个版本<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802186.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>我下载的是windows版本（64位）。它的界面虽然简单：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183547720.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>但是它立马写，就可以看到结果，并可以选择插入代码的语言<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183918306.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>而且它还有多种主题：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020070718420064.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>虽然有这么多的<strong>Markdown</strong>编写软件，但是对于像我这种偷懒人，想把写好的文章直接翻译成<strong>Markdown</strong>格式。就不得不选择CSDN了中的<code>写博客</code>，它可以将文章导出为<code>Markdown格式</code></p>
+]]></content>
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Onedrive零成本且最简单搭建网盘</title>
     <url>/post/d2d2faa.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h1><ol>
@@ -356,44 +394,6 @@
 ]]></content>
       <tags>
         <tag>网盘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown编辑器推荐</title>
-    <url>/post/b33e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍三款Markdown编辑器"><a href="#介绍三款Markdown编辑器" class="headerlink" title="介绍三款Markdown编辑器"></a>介绍三款Markdown编辑器</h1><hr>
-<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
-<h3 id="1、MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#1、MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="1、MdEditor是一个在线编辑Markdown文档的编辑器"></a>1、MdEditor是一个在线编辑Markdown文档的编辑器</h3><hr>
-<blockquote>
-<ul>
-<li>它能插入多种代码</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180547979.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<blockquote>
-<ul>
-<li>支持数学公式编辑</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707180918512.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<blockquote>
-<ul>
-<li>支持流程图</li>
-</ul>
-</blockquote>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181221587.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>它的许多优点等待你的<a href="http://www.mdeditor.com/">发现</a></p>
-<h3 id="2、Cmd-Markdown阅读编辑器"><a href="#2、Cmd-Markdown阅读编辑器" class="headerlink" title="2、Cmd_Markdown阅读编辑器"></a>2、Cmd_Markdown阅读编辑器</h3><hr>
-<p>他同样支持流程图编写、支持Late数学公式，话不多说，上图：</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707181849825.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">这里是下载<a href="https://www.zybuluo.com/cmd/">链接</a>，还有在线编辑<a href="https://www.zybuluo.com/mdeditor">网址</a>。</p>
-<h3 id="3、Typora"><a href="#3、Typora" class="headerlink" title="3、Typora"></a>3、Typora</h3><hr>
-<p>这是他的<a href="https://www.typora.io/#">官网</a>。国内下载较慢，可以自备梯子<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802402.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>支持多个版本<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707182802186.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>我下载的是windows版本（64位）。它的界面虽然简单：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183547720.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>但是它立马写，就可以看到结果，并可以选择插入代码的语言<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200707183918306.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>而且它还有多种主题：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020070718420064.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>虽然有这么多的<strong>Markdown</strong>编写软件，但是对于像我这种偷懒人，想把写好的文章直接翻译成<strong>Markdown</strong>格式。就不得不选择CSDN了中的<code>写博客</code>，它可以将文章导出为<code>Markdown格式</code></p>
-]]></content>
-      <tags>
-        <tag>其他</tag>
       </tags>
   </entry>
   <entry>
@@ -498,17 +498,6 @@
       </tags>
   </entry>
   <entry>
-    <title>爬虫第一课</title>
-    <url>/post/2f13.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>RSS订阅</title>
     <url>/post/9065.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
@@ -533,6 +522,17 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爬虫第一课</title>
+    <url>/post/2f13.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movies</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;user-agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;</span><br><span class="line">    movie_list1=[]</span><br><span class="line">    movie_list2=[]</span><br><span class="line">    movie_list3=[]</span><br><span class="line">    movie_list4=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+str(i*<span class="number">25</span>)</span><br><span class="line">        r=requests.get(link,headers=headers,timeout=<span class="number">10</span>)</span><br><span class="line">        print(str(i+<span class="number">1</span>),<span class="string">&#x27;页响应状态码&#x27;</span>,r.status_code)</span><br><span class="line"></span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&#x27;lxml&#x27;</span>)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;title&#x27;</span>).get_text()</span><br><span class="line">            movie_list1.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;hd&#x27;</span>):</span><br><span class="line">            name = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;other&#x27;</span>).get_text()</span><br><span class="line">            movie_list2.append(name)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;info&#x27;</span>):</span><br><span class="line">            info = t.find(<span class="string">&#x27;p&#x27;</span>).get_text().replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">            movie_list3.append(info)</span><br><span class="line">        <span class="keyword">for</span> t <span class="keyword">in</span> soup.find_all(<span class="string">&#x27;div&#x27;</span>, <span class="string">&#x27;star&#x27;</span>):</span><br><span class="line">            fen = t.find(<span class="string">&#x27;span&#x27;</span>, <span class="string">&#x27;rating_num&#x27;</span>).get_text()</span><br><span class="line">            movie_list4.append(fen)     </span><br><span class="line">    <span class="keyword">return</span> movie_list1,movie_list2,movie_list3,movie_list4</span><br><span class="line">a,b,c,d=get_movies()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="keyword">import</span> codecs</span><br><span class="line">    <span class="keyword">with</span> codecs.open(<span class="string">&#x27;c:\\Users\\lin paddy\\Desktop\\python\\Python爬虫\\豆瓣电影.txt&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&#x27;豆瓣电影 Top 250\n&#x27;</span>)</span><br><span class="line">            <span class="keyword">for</span> n <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">250</span>):</span><br><span class="line">                </span><br><span class="line">                f.write(<span class="string">&#x27;Top&#x27;</span>+str(n+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">                f.write(<span class="string">&#x27;电影名:&#x27;</span>+a[n]+b[n]+c[n]+<span class="string">&#x27;豆瓣评分&#x27;</span>+d[n])</span><br><span class="line">                f.write(<span class="string">&#x27;\n\n&#x27;</span>)</span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行后可以得到下面所示的图片结果：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200705155231116.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hoYmh4Yg==,size_16,color_FFFFFF,t_70#pic_center">                                                                                 </p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -1236,6 +1236,39 @@
       </tags>
   </entry>
   <entry>
+    <title>文章加密</title>
+    <url>/post/349b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+
+<h1 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h1><ul>
+<li>将“ password”添加到您的文章信息头就像这样：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br></pre></td></tr></table></figure>
+
+<h1 id="按标签加密"><a href="#按标签加密" class="headerlink" title="按标签加密"></a>按标签加密</h1><ul>
+<li>修改文章信息头如下：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 加密文章tag</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br><span class="line">abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">message: 您好，这里需要密码。</span><br><span class="line">wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。</span><br><span class="line">wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>对博客根目录_config添加如下字段：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 安全</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  template: &lt;div id&#x3D;&quot;hexo-blog-encrypt&quot; data-wpm&#x3D;&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot; data-whm&#x3D;&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div class&#x3D;&quot;hbe-input-container&quot;&gt;&lt;input type&#x3D;&quot;password&quot; id&#x3D;&quot;hbePass&quot; placeholder&#x3D;&quot;&#123;&#123;hbeMessage&#125;&#125;&quot; &#x2F;&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;&#x2F;label&gt;&lt;div class&#x3D;&quot;bottom-line&quot;&gt;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&lt;script id&#x3D;&quot;hbeData&quot; type&#x3D;&quot;hbeData&quot; data-hmacdigest&#x3D;&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;&#x2F;script&gt;&lt;&#x2F;div&gt;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
+
+<h1 id="对-TOC-文章进行加密"><a href="#对-TOC-文章进行加密" class="headerlink" title="对 TOC 文章进行加密"></a>对 TOC 文章进行加密</h1><p>如果您有一篇文章使用了TOC，您需要修改模板的部分代码。这里以matery主题作为示例：</p>
+<ul>
+<li>在hexo/themes/matery/layout/_partial/article.ejs找到article.ejs。</li>
+<li>然后找到&lt;％post.content％&gt;这段代码，通常在30行左右。</li>
+<li>使用如下的代码来替代它：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc &#x3D;&#x3D; true)&#123; %&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;toc-div&quot; class&#x3D;&quot;toc-article&quot; &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;style&#x3D;&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class&#x3D;&quot;toc-title&quot;&gt;Index&lt;&#x2F;strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>添加音乐播放器</title>
     <url>/post/a3c8.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="博客制作单独页面音乐播放器"><a href="#博客制作单独页面音乐播放器" class="headerlink" title="博客制作单独页面音乐播放器"></a>博客制作单独页面音乐播放器</h1><hr>
@@ -1508,39 +1541,6 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文章加密</title>
-    <url>/post/349b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
-
-<h1 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h1><ul>
-<li>将“ password”添加到您的文章信息头就像这样：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br></pre></td></tr></table></figure>
-
-<h1 id="按标签加密"><a href="#按标签加密" class="headerlink" title="按标签加密"></a>按标签加密</h1><ul>
-<li>修改文章信息头如下：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 加密文章tag</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br><span class="line">abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">message: 您好，这里需要密码。</span><br><span class="line">wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。</span><br><span class="line">wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>对博客根目录_config添加如下字段：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 安全</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  template: &lt;div id&#x3D;&quot;hexo-blog-encrypt&quot; data-wpm&#x3D;&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot; data-whm&#x3D;&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div class&#x3D;&quot;hbe-input-container&quot;&gt;&lt;input type&#x3D;&quot;password&quot; id&#x3D;&quot;hbePass&quot; placeholder&#x3D;&quot;&#123;&#123;hbeMessage&#125;&#125;&quot; &#x2F;&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;&#x2F;label&gt;&lt;div class&#x3D;&quot;bottom-line&quot;&gt;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&lt;script id&#x3D;&quot;hbeData&quot; type&#x3D;&quot;hbeData&quot; data-hmacdigest&#x3D;&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;&#x2F;script&gt;&lt;&#x2F;div&gt;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
-
-<h1 id="对-TOC-文章进行加密"><a href="#对-TOC-文章进行加密" class="headerlink" title="对 TOC 文章进行加密"></a>对 TOC 文章进行加密</h1><p>如果您有一篇文章使用了TOC，您需要修改模板的部分代码。这里以matery主题作为示例：</p>
-<ul>
-<li>在hexo/themes/matery/layout/_partial/article.ejs找到article.ejs。</li>
-<li>然后找到&lt;％post.content％&gt;这段代码，通常在30行左右。</li>
-<li>使用如下的代码来替代它：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc &#x3D;&#x3D; true)&#123; %&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;toc-div&quot; class&#x3D;&quot;toc-article&quot; &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;style&#x3D;&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class&#x3D;&quot;toc-title&quot;&gt;Index&lt;&#x2F;strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
