@@ -6,7 +6,7 @@
   <link href="http://www.paddylin.top/atom.xml" rel="self"/>
   
   <link href="http://www.paddylin.top/"/>
-  <updated>2020-09-05T07:40:30.356Z</updated>
+  <updated>2020-09-07T11:39:39.804Z</updated>
   <id>http://www.paddylin.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Picup可部署在博客的网页图床</title>
+    <link href="http://www.paddylin.top/post/63e69777.html"/>
+    <id>http://www.paddylin.top/post/63e69777.html</id>
+    <published>2020-09-07T11:11:20.318Z</published>
+    <updated>2020-09-07T11:39:39.804Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p>Picup是基于Picee谷歌插件改造而来的，它是与Github配合使用的图片上传器，即Github图床。</p><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/picup22.png"></p><h1 id="博客于部署"><a href="#博客于部署" class="headerlink" title="博客于部署"></a>博客于部署</h1><p>你们可以在这里下载Picup项目的<code>html</code></p><p><a href="https://github.com/PaddyLin-xum/picup" class="LinkCard">Picup</a></p><p>然后将<code>htnl</code>中的js，css等链接替换为Github中相应的jsDeliver加速过文件的链接，对于在博客上部署<code>html</code>，相信对于大家来说都不难，如果你嫌麻烦，你也可以用我搭建好的</p><p><a href="https://paddylin.gitee.io/lin/" class="LinkCard">上传器</a></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ul><li>两种登录方法</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/picup2.png"></p><ul><li>使用步骤</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku//picup3.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="http://www.paddylin.top/tags/Hexo/"/>
+    
+    <category term="图床" scheme="http://www.paddylin.top/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="Butterfly" scheme="http://www.paddylin.top/tags/Butterfly/"/>
+    
+  </entry>
   
   <entry>
     <title>Googledrive网盘的简单搭建</title>
@@ -406,28 +432,6 @@
     <updated>2020-08-30T15:30:40.576Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure><h1 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h1><ul><li>将“ password”添加到您的文章信息头就像这样：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br></pre></td></tr></table></figure><h1 id="按标签加密"><a href="#按标签加密" class="headerlink" title="按标签加密"></a>按标签加密</h1><ul><li>修改文章信息头如下：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 加密文章tag</span><br><span class="line">date: 2020-03-13 21:12:21</span><br><span class="line">password: muyiio</span><br><span class="line">abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">message: 您好，这里需要密码。</span><br><span class="line">wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。</span><br><span class="line">wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。</span><br><span class="line">---</span><br></pre></td></tr></table></figure><ul><li>对博客根目录_config添加如下字段：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 安全</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 这里有东西被加密了，需要输入密码查看哦。</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  template: &lt;div id&#x3D;&quot;hexo-blog-encrypt&quot; data-wpm&#x3D;&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot; data-whm&#x3D;&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div class&#x3D;&quot;hbe-input-container&quot;&gt;&lt;input type&#x3D;&quot;password&quot; id&#x3D;&quot;hbePass&quot; placeholder&#x3D;&quot;&#123;&#123;hbeMessage&#125;&#125;&quot; &#x2F;&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;&#x2F;label&gt;&lt;div class&#x3D;&quot;bottom-line&quot;&gt;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&lt;script id&#x3D;&quot;hbeData&quot; type&#x3D;&quot;hbeData&quot; data-hmacdigest&#x3D;&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;&#x2F;script&gt;&lt;&#x2F;div&gt;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure><h1 id="对-TOC-文章进行加密"><a href="#对-TOC-文章进行加密" class="headerlink" title="对 TOC 文章进行加密"></a>对 TOC 文章进行加密</h1><p>如果您有一篇文章使用了TOC，您需要修改模板的部分代码。这里以matery主题作为示例：</p><ul><li>在hexo/themes/matery/layout/_partial/article.ejs找到article.ejs。</li><li>然后找到&lt;％post.content％&gt;这段代码，通常在30行左右。</li><li>使用如下的代码来替代它：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if(post.toc &#x3D;&#x3D; true)&#123; %&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;toc-div&quot; class&#x3D;&quot;toc-article&quot; &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;style&#x3D;&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class&#x3D;&quot;toc-title&quot;&gt;Index&lt;&#x2F;strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt &#x3D;&#x3D; true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="Butterfly" scheme="http://www.paddylin.top/tags/Butterfly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Butterfly主题美化之加时钟</title>
-    <link href="http://www.paddylin.top/post/13d4.html"/>
-    <id>http://www.paddylin.top/post/13d4.html</id>
-    <published>2020-08-09T16:00:00.000Z</published>
-    <updated>2020-08-30T15:30:18.824Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="时钟一"><a href="#时钟一" class="headerlink" title="时钟一"></a>时钟一</h2><p>效果图：<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200809205035932.gif#pic_center" alt="在这里插入图片描述"></p><ul><li>首先我们下载这两个文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/snap.svg-min.js">snap.svg-min.js</a> 和<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/clock.js">clock.js</a>)，并把它们放到主题目录下的<code>source/js</code>中</li><li>再下载此文件(<a href="https://github.com/PaddyLin-xum/wenjian/blob/master/index.html">index.html</a>)放在目录<code>\themes\butterfly\layout\includes\widget</code>下</li><li>在目录<code>\themes\butterfly\layout\includes\widget</code>下建立文件<code>card_per.pug</code>，内容如下</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">.card-widget.card-aper</span><br><span class="line">  .card-content</span><br><span class="line">    .item-headline</span><br><span class="line">      i.fas.fa-clock-o</span><br><span class="line">      span&#x3D; _p(&#39;aside.card_per&#39;)</span><br><span class="line">      include index.html</span><br></pre></td></tr></table></figure><ul><li>在目录<code>\themes\butterfly\layout\includes\widget</code>下找到<code>index.pug</code>并在自己想要的位置添加代码</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if theme.aside.card_per</span><br><span class="line">       !&#x3D;partial(&#39;includes&#x2F;widget&#x2F;card_per&#39;, &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span><br></pre></td></tr></table></figure><ul><li>找到<code>\themes\butterfly\languages\zh-CN.yml</code>中的aside并添加 <code>card_per: 现在时间</code></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">aside:</span><br><span class="line">  articles: 文章</span><br><span class="line">  tags: 标签</span><br><span class="line">  categories: 分类</span><br><span class="line">  card_announcement: 公告</span><br><span class="line">  card_per: 现在时间</span><br></pre></td></tr></table></figure><ul><li>在主题目录下的<code>_config.yml</code>的<code>aside</code>中添加<code>card_per： true</code></li><li>在主题目录下的<code>_config.yml</code>的<code>inject</code>中添加代码</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">  </span><br><span class="line">  bottom:</span><br><span class="line">     - &lt;script src&#x3D;&#39;&#x2F;js&#x2F;snap.svg-min.js&#39;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">     - &lt;script src&#x3D;&quot;&#x2F;js&#x2F;clock.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure><p>最后<code>hexo s</code>就可以本地看到结果</p>]]></content>
     
     
       

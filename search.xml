@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>8月24日GET</title>
-    <url>/post/f31d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><center><p style="font-size:30px">今天分享一下我get到的新技能</p></center>
-- 学会了用磁贴管理电脑桌面，让电脑看起来更加简洁，参照方法来源：
- <a href="https://www.zhihu.com/question/358547747/answer/1230574638" class="LinkCard"></a>
-
-<ul>
-<li><p>腾讯，爱奇艺，优酷vip视频免费看（使用插件<a href="https://wws.lanzous.com/iuMROdbop7a">我要看VIP视频</a>）</p>
-</li>
-<li><p>IDM+油猴高速下载百度网盘资源</p>
-</li>
-<li><p>FDM代替迅雷下载</p>
-</li>
-<li><p>网易云音乐，虾米音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，哔哩哔哩聚合软件<code>Listen1</code>(也有插件)<br><a href="https://github.com/listen1/listen1_chrome_extension" class="LinkCard">Listen1</a></p>
-</li>
-<li><p>各平台VIP视频聚合软件<code>ZY Player</code>，有些时候比较慢<br><a href="https://github.com/Hunlongyu/ZY-Player/" class="LinkCard">ZY Player</a></p>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>Butterfly加载动画修改</title>
     <url>/post/4f69.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p style="font-size:25px">🐰添加配置文件</p>
@@ -51,6 +30,73 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">preloader:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">layout:</span> <span class="string">gear</span> <span class="comment"># gear, spinner-box 两种样式</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
+  </entry>
+  <entry>
+    <title>8月24日GET</title>
+    <url>/post/f31d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><center><p style="font-size:30px">今天分享一下我get到的新技能</p></center>
+- 学会了用磁贴管理电脑桌面，让电脑看起来更加简洁，参照方法来源：
+ <a href="https://www.zhihu.com/question/358547747/answer/1230574638" class="LinkCard"></a>
+
+<ul>
+<li><p>腾讯，爱奇艺，优酷vip视频免费看（使用插件<a href="https://wws.lanzous.com/iuMROdbop7a">我要看VIP视频</a>）</p>
+</li>
+<li><p>IDM+油猴高速下载百度网盘资源</p>
+</li>
+<li><p>FDM代替迅雷下载</p>
+</li>
+<li><p>网易云音乐，虾米音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，哔哩哔哩聚合软件<code>Listen1</code>(也有插件)<br><a href="https://github.com/listen1/listen1_chrome_extension" class="LinkCard">Listen1</a></p>
+</li>
+<li><p>各平台VIP视频聚合软件<code>ZY Player</code>，有些时候比较慢<br><a href="https://github.com/Hunlongyu/ZY-Player/" class="LinkCard">ZY Player</a></p>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Googledrive网盘的简单搭建</title>
+    <url>/post/86a62d13.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="所需工具"><a href="#所需工具" class="headerlink" title="所需工具"></a>所需工具</h1><ol>
+<li>Googledrive的账号</li>
+<li>Cloudflare账号（注册地址为:<a href="https://dash.cloudflare.com/">Cloudflare</a>）</li>
+</ol>
+<h1 id="网盘搭建"><a href="#网盘搭建" class="headerlink" title="网盘搭建"></a>网盘搭建</h1><h2 id="获取Googledrive的账号"><a href="#获取Googledrive的账号" class="headerlink" title="获取Googledrive的账号"></a>获取Googledrive的账号</h2><p>这里申请需要fq，或者你使用谷歌浏览器，然后安装<code>谷歌上网助手</code>插件就可以访问谷歌的一切产品。</p>
+<h2 id="获取代码"><a href="#获取代码" class="headerlink" title="获取代码"></a>获取代码</h2><p>访问以下三个链接之一</p>
+<div class="note primary no-icon"><ol>
+<li><a href="https://install.achirou.workers.dev/">https://install.achirou.workers.dev</a></li>
+<li><a href="https://goindex-quick-install.glitch.me/">https://goindex-quick-install.glitch.me</a></li>
+<li><a href="https://goindex-install.herokuapp.com/">https://goindex-install.herokuapp.com</a></li>
+</ol>
+</div>
+<p>这里我们用第一个链接演示，打开后如图操作<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google1.png"></p>
+<h2 id="部署网页"><a href="#部署网页" class="headerlink" title="部署网页"></a>部署网页</h2><ul>
+<li>选择Cloudflare中的Workers</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/onedrive2.png"></p>
+<ul>
+<li>选择<code>创建Worker</code></li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/onedrive3.png"></p>
+<ul>
+<li>将上面最后得到的代码覆盖脚本中的代码，然后点击预览，得到如图结果(记得保存并部署)</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google2.png"></p>
+<p>自行添加目录的<code>id</code>可以如下图找到</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google3.png"></p>
+<h1 id="谷歌网盘扩容"><a href="#谷歌网盘扩容" class="headerlink" title="谷歌网盘扩容"></a>谷歌网盘扩容</h1><p>大家有没有发现我的谷歌云盘多了共享云端硬盘，因为原盘只有<code>15G</code>空间，所以我们可以增加团队云盘（空间无限）</p>
+<h2 id="创建地址"><a href="#创建地址" class="headerlink" title="创建地址"></a>创建地址</h2><div class="note primary no-icon"><ul>
+<li><a href="https://gd.zxd.workers.dev/">https://gd.zxd.workers.dev</a> 所屬團隊： yesyesxx.me</li>
+<li><a href="https://gd.404edu.workers.dev/">https://gd.404edu.workers.dev</a> 所屬團隊： alum.ccu.edu.tw</li>
+<li><a href="http://leon.educationhost.cloud/">http://leon.educationhost.cloud/</a></li>
+<li><a href="https://gd.404edu.workers.dev/">https://gd.404edu.workers.dev/</a></li>
+<li><a href="https://teamdrive.xcpx.workers.dev/">https://teamdrive.xcpx.workers.dev/</a> swccd.edu团队盘</li>
+</ul>
+</div>
+
+<h2 id="创建方法"><a href="#创建方法" class="headerlink" title="创建方法"></a>创建方法</h2><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google4.png"><br>填自己的邮箱，然后得到一个团队盘，团队盘自己是管理，并且只有一个人。然后打开<a href="https://drive.google.com/drive/shared-drives">https://drive.google.com/drive/shared-drives</a> , 有可能盘已经添加了（如果提示无权限直接打开），可以重复多次不断提交！</p>
+]]></content>
+      <tags>
+        <tag>网盘</tag>
+      </tags>
   </entry>
   <entry>
     <title>Butterfly增加鼠标右键功能</title>
@@ -187,52 +233,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Googledrive网盘的简单搭建</title>
-    <url>/post/86a62d13.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="所需工具"><a href="#所需工具" class="headerlink" title="所需工具"></a>所需工具</h1><ol>
-<li>Googledrive的账号</li>
-<li>Cloudflare账号（注册地址为:<a href="https://dash.cloudflare.com/">Cloudflare</a>）</li>
-</ol>
-<h1 id="网盘搭建"><a href="#网盘搭建" class="headerlink" title="网盘搭建"></a>网盘搭建</h1><h2 id="获取Googledrive的账号"><a href="#获取Googledrive的账号" class="headerlink" title="获取Googledrive的账号"></a>获取Googledrive的账号</h2><p>这里申请需要fq，或者你使用谷歌浏览器，然后安装<code>谷歌上网助手</code>插件就可以访问谷歌的一切产品。</p>
-<h2 id="获取代码"><a href="#获取代码" class="headerlink" title="获取代码"></a>获取代码</h2><p>访问以下三个链接之一</p>
-<div class="note primary no-icon"><ol>
-<li><a href="https://install.achirou.workers.dev/">https://install.achirou.workers.dev</a></li>
-<li><a href="https://goindex-quick-install.glitch.me/">https://goindex-quick-install.glitch.me</a></li>
-<li><a href="https://goindex-install.herokuapp.com/">https://goindex-install.herokuapp.com</a></li>
-</ol>
-</div>
-<p>这里我们用第一个链接演示，打开后如图操作<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google1.png"></p>
-<h2 id="部署网页"><a href="#部署网页" class="headerlink" title="部署网页"></a>部署网页</h2><ul>
-<li>选择Cloudflare中的Workers</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/onedrive2.png"></p>
-<ul>
-<li>选择<code>创建Worker</code></li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/onedrive3.png"></p>
-<ul>
-<li>将上面最后得到的代码覆盖脚本中的代码，然后点击预览，得到如图结果(记得保存并部署)</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google2.png"></p>
-<p>自行添加目录的<code>id</code>可以如下图找到</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google3.png"></p>
-<h1 id="谷歌网盘扩容"><a href="#谷歌网盘扩容" class="headerlink" title="谷歌网盘扩容"></a>谷歌网盘扩容</h1><p>大家有没有发现我的谷歌云盘多了共享云端硬盘，因为原盘只有<code>15G</code>空间，所以我们可以增加团队云盘（空间无限）</p>
-<h2 id="创建地址"><a href="#创建地址" class="headerlink" title="创建地址"></a>创建地址</h2><div class="note primary no-icon"><ul>
-<li><a href="https://gd.zxd.workers.dev/">https://gd.zxd.workers.dev</a> 所屬團隊： yesyesxx.me</li>
-<li><a href="https://gd.404edu.workers.dev/">https://gd.404edu.workers.dev</a> 所屬團隊： alum.ccu.edu.tw</li>
-<li><a href="http://leon.educationhost.cloud/">http://leon.educationhost.cloud/</a></li>
-<li><a href="https://gd.404edu.workers.dev/">https://gd.404edu.workers.dev/</a></li>
-<li><a href="https://teamdrive.xcpx.workers.dev/">https://teamdrive.xcpx.workers.dev/</a> swccd.edu团队盘</li>
-</ul>
-</div>
-
-<h2 id="创建方法"><a href="#创建方法" class="headerlink" title="创建方法"></a>创建方法</h2><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/google4.png"><br>填自己的邮箱，然后得到一个团队盘，团队盘自己是管理，并且只有一个人。然后打开<a href="https://drive.google.com/drive/shared-drives">https://drive.google.com/drive/shared-drives</a> , 有可能盘已经添加了（如果提示无权限直接打开），可以重复多次不断提交！</p>
-]]></content>
-      <tags>
-        <tag>网盘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HTML图床</title>
     <url>/post/61b1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>由于用<code>Github</code>和<code>PicGo</code>搭建的图床在后面使用过程中经常会出现<code>服务器出错</code>的提示导致半天一张图都传不上去。所以我努力地在网上搜索解决办法，但是都没有较好解决,倒是无意见发现了一个HTML上传图片到Github并获得使用连接的办法。然后经过改造得到了下图的结果<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/Sni.png"></p>
@@ -343,6 +343,30 @@
 ]]></content>
       <tags>
         <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Picup可部署在博客的网页图床</title>
+    <url>/post/63e69777.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p>Picup是基于Picee谷歌插件改造而来的，它是与Github配合使用的图片上传器，即Github图床。</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/picup22.png"></p>
+<h1 id="博客于部署"><a href="#博客于部署" class="headerlink" title="博客于部署"></a>博客于部署</h1><p>你们可以在这里下载Picup项目的<code>html</code></p>
+<p><a href="https://github.com/PaddyLin-xum/picup" class="LinkCard">Picup</a></p>
+<p>然后将<code>htnl</code>中的js，css等链接替换为Github中相应的jsDeliver加速过文件的链接，对于在博客上部署<code>html</code>，相信对于大家来说都不难，如果你嫌麻烦，你也可以用我搭建好的</p>
+<p><a href="https://paddylin.gitee.io/lin/" class="LinkCard">上传器</a></p>
+<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ul>
+<li>两种登录方法</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/picup2.png"></p>
+<ul>
+<li>使用步骤</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku//picup3.png"></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>图床</tag>
+        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
@@ -498,33 +522,6 @@
       </tags>
   </entry>
   <entry>
-    <title>RSS订阅</title>
-    <url>/post/9065.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
-<h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><ul>
-<li><p>首先安装插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure></li>
-<li><p>其次在博客根目录下的<code>_ config.yml</code>文件中添加以下代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br></pre></td></tr></table></figure></li>
-<li><p>最后<code>hexo g、hexo s</code>，在浏览器打开<code>http://localhost:4000/atom.xml</code>就可以看到类似的结果</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/wtew.png"></p>
-<ul>
-<li>以butterfly为例，我们可以在主题目录下的<code>_ config.yml</code>中添加如是代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line"> fas fa-rss: 博客网址&#x2F;atom.xml||RSS</span><br></pre></td></tr></table></figure>
-就可以生成RSS了<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815225732256.png"></li>
-</ul>
-</li>
-</ul>
-<h1 id="RSS阅读器"><a href="#RSS阅读器" class="headerlink" title="RSS阅读器"></a>RSS阅读器</h1><p>推荐使用irreader，下载地址为<br><a href="http://irreader.fatecore.com/" class="LinkCard">irreader</a><br>使用教程为</p>
-<div class="bilibili">
-  <iframe src="//player.bilibili.com/player.html?aid=28215001&bvid=BV18s411w7tF&cid=48771224&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>爬虫第一课</title>
     <url>/post/2f13.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Python爬取豆瓣电影Top250"><a href="#Python爬取豆瓣电影Top250" class="headerlink" title="Python爬取豆瓣电影Top250"></a>Python爬取豆瓣电影Top250</h2><p>这是我参考改写的代码</p>
@@ -562,6 +559,33 @@
 ]]></content>
       <tags>
         <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RSS订阅</title>
+    <url>/post/9065.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>相比较于上篇的<code>hexo插件</code>实现订阅博客，个人觉得<code>RSS订阅</code>的操作更加简单优雅。因为弹窗的功能会让觉得心烦，妨碍阅读者，扰乱阅读者心情（我的体验）。曾经我也很抵触<code>RSS订阅</code>（可能因为自己是小白，不知道怎么用），但是看到网上都在说<code>RSS订阅</code>比较好用后，我也开始学习怎么用RSS了。</p>
+<h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><ul>
+<li><p>首先安装插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure></li>
+<li><p>其次在博客根目录下的<code>_ config.yml</code>文件中添加以下代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br></pre></td></tr></table></figure></li>
+<li><p>最后<code>hexo g、hexo s</code>，在浏览器打开<code>http://localhost:4000/atom.xml</code>就可以看到类似的结果</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/wtew.png"></p>
+<ul>
+<li>以butterfly为例，我们可以在主题目录下的<code>_ config.yml</code>中添加如是代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line"> fas fa-rss: 博客网址&#x2F;atom.xml||RSS</span><br></pre></td></tr></table></figure>
+就可以生成RSS了<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815225732256.png"></li>
+</ul>
+</li>
+</ul>
+<h1 id="RSS阅读器"><a href="#RSS阅读器" class="headerlink" title="RSS阅读器"></a>RSS阅读器</h1><p>推荐使用irreader，下载地址为<br><a href="http://irreader.fatecore.com/" class="LinkCard">irreader</a><br>使用教程为</p>
+<div class="bilibili">
+  <iframe src="//player.bilibili.com/player.html?aid=28215001&bvid=BV18s411w7tF&cid=48771224&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -689,6 +713,20 @@
       </tags>
   </entry>
   <entry>
+    <title>My love theme</title>
+    <url>/post/fad4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo-theme-fluid"><a href="#Hexo-theme-fluid" class="headerlink" title="Hexo-theme-fluid"></a>Hexo-theme-fluid</h1><p>Github地址<br><a href="https://github.com/fluid-dev/hexo-theme-fluid" class="LinkCard">Fluid</a><br>演示地址<br><a href="https://hexo.fluid-dev.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/clockkk.gif"></p>
+<h1 id="Hexo-theme-volantis"><a href="#Hexo-theme-volantis" class="headerlink" title="Hexo-theme-volantis"></a>Hexo-theme-volantis</h1><p>Github地址</p>
+<p><a href="https://github.com/volantis-x/hexo-theme-volantis" class="LinkCard">Volantis</a></p>
+<p>演示地址</p>
+<p><a href="https://volantis.js.org/" class="LinkCard">演示</a></p>
+<p>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/eder.gif"></p>
+<h1 id="Hexo-theme-matery"><a href="#Hexo-theme-matery" class="headerlink" title="Hexo-theme-matery"></a>Hexo-theme-matery</h1><p>Github地址<br><a href="https://github.com/blinkfox/hexo-theme-matery" class="LinkCard">Matery</a><br>演示地址<br><a href="http://blinkfox.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/h.gif"></p>
+<h1 id="Hexo-theme-icarus"><a href="#Hexo-theme-icarus" class="headerlink" title="Hexo-theme-icarus"></a>Hexo-theme-icarus</h1><p>Github<br><a href="https://github.com/ppoffice/hexo-theme-icarus" class="LinkCard">Icarus</a><br>演示地址（国内访问较慢）<br><a href="https://blog.zhangruipeng.me/hexo-theme-icarus" class="LinkCard">演示</a><br>安装教程<br><a href="https://easyhexo.com/2-Theme-use-and-config/2-12-hexo-theme-icarus/" class="LinkCard">安装</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/1.7fabd81a.png"></p>
+<h1 id="Hexo-theme-Claudia"><a href="#Hexo-theme-Claudia" class="headerlink" title="Hexo-theme-Claudia"></a>Hexo-theme-Claudia</h1><p>Github地址<br><a href="https://github.com/Haojen/hexo-theme-Claudia" class="LinkCard">Claudia</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/claudia-cover.png"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>免费CDN</title>
     <url>/post/4da3.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note primary no-icon"><p>CDN 的全称是 Content Delivery Network，即内容分发网络。CDN 是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN 的关键技术主要有内容存储和分发技术。—— 百度百科</p>
@@ -708,18 +746,40 @@
 ]]></content>
   </entry>
   <entry>
-    <title>My love theme</title>
-    <url>/post/fad4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo-theme-fluid"><a href="#Hexo-theme-fluid" class="headerlink" title="Hexo-theme-fluid"></a>Hexo-theme-fluid</h1><p>Github地址<br><a href="https://github.com/fluid-dev/hexo-theme-fluid" class="LinkCard">Fluid</a><br>演示地址<br><a href="https://hexo.fluid-dev.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/clockkk.gif"></p>
-<h1 id="Hexo-theme-volantis"><a href="#Hexo-theme-volantis" class="headerlink" title="Hexo-theme-volantis"></a>Hexo-theme-volantis</h1><p>Github地址</p>
-<p><a href="https://github.com/volantis-x/hexo-theme-volantis" class="LinkCard">Volantis</a></p>
-<p>演示地址</p>
-<p><a href="https://volantis.js.org/" class="LinkCard">演示</a></p>
-<p>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/eder.gif"></p>
-<h1 id="Hexo-theme-matery"><a href="#Hexo-theme-matery" class="headerlink" title="Hexo-theme-matery"></a>Hexo-theme-matery</h1><p>Github地址<br><a href="https://github.com/blinkfox/hexo-theme-matery" class="LinkCard">Matery</a><br>演示地址<br><a href="http://blinkfox.com/" class="LinkCard">演示</a><br>Gif展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/h.gif"></p>
-<h1 id="Hexo-theme-icarus"><a href="#Hexo-theme-icarus" class="headerlink" title="Hexo-theme-icarus"></a>Hexo-theme-icarus</h1><p>Github<br><a href="https://github.com/ppoffice/hexo-theme-icarus" class="LinkCard">Icarus</a><br>演示地址（国内访问较慢）<br><a href="https://blog.zhangruipeng.me/hexo-theme-icarus" class="LinkCard">演示</a><br>安装教程<br><a href="https://easyhexo.com/2-Theme-use-and-config/2-12-hexo-theme-icarus/" class="LinkCard">安装</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/1.7fabd81a.png"></p>
-<h1 id="Hexo-theme-Claudia"><a href="#Hexo-theme-Claudia" class="headerlink" title="Hexo-theme-Claudia"></a>Hexo-theme-Claudia</h1><p>Github地址<br><a href="https://github.com/Haojen/hexo-theme-Claudia" class="LinkCard">Claudia</a><br>图片展示<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/claudia-cover.png"></p>
+    <title>博客订阅通知功能</title>
+    <url>/post/91f8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
+<p>在你的博客站点目录执行下面的命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
+<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
+<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
+<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
+<ul>
+<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
+<ul>
+<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
+</li>
+<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
+</li>
+</ul>
+<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
+<li>其中trackingCode是下面图片中黑色下划线的代码</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
+<ul>
+<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
+</ul>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
+<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
 ]]></content>
+      <tags>
+        <tag>Butterfly</tag>
+      </tags>
   </entry>
   <entry>
     <title>初学Python之考试三不会题</title>
@@ -780,42 +840,6 @@
 ]]></content>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客订阅通知功能</title>
-    <url>/post/91f8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>插件的Github仓库：<a href="https://github.com/glazec/hexo-web-push-notification" target="_blank" rel="noopener"><i class="fab fa-github"></i> hexo-web-push-notification</a></p>
-<p>在你的博客站点目录执行下面的命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-web-push-notification --save</span><br></pre></td></tr></table></figure>
-<p>紧接着再你的博客站点目录下的配置文件，而不是主题配置文件，添加以下配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">webPushNotification:</span><br><span class="line">  webpushrKey: <span class="string">&quot;your webpushr rest api key&quot;</span></span><br><span class="line">  webpushrAuthToken: <span class="string">&quot;your webpushr authorize token&quot;</span></span><br><span class="line">  trackingCode: <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
-<p>其中 webpushrKey,webpushrAuthToken 和 trackingCode 的值在官网注册得到。</p>
-<h1 id="官网注册"><a href="#官网注册" class="headerlink" title="官网注册"></a>官网注册</h1><p>点击右边的图标即可进入注册：<a href="https://app.webpushr.com/signup" target="_blank" rel="noopener" style="font-size:16px"><i class="fas fa-torii-gate fa-2x"></i></a></p>
-<p><font style="color:red">友情提醒：</font>注册完账号后，需要登录这个网站， 在登录时需要进行人机身份验证，这个需要使用一定的手段才能显示出来</p>
-<ul>
-<li>填写图中所显示的相关网站信息，填写完之后，点击下一步</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4tda.png"></p>
-<ul>
-<li><p>按照图示步骤完成(以butterflt主题为例)<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/4ydrw.png"></p>
-</li>
-<li><p>验证安装<br><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ythg.jpg"></p>
-</li>
-</ul>
-<h1 id="获取参数"><a href="#获取参数" class="headerlink" title="获取参数"></a>获取参数</h1><ul>
-<li>其中trackingCode是下面图片中黑色下划线的代码</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/ydsd.png"></p>
-<ul>
-<li>然后按照下图中的引导，找到 webpushrKey 和 webpushrAuthToken 的值，并填写到博客根目录的配置文件所对应的位置。</li>
-</ul>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815132539639.png"></p>
-<h1 id="推送设置"><a href="#推送设置" class="headerlink" title="推送设置"></a>推送设置</h1><p>如图所示</p>
-<p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/djs.png"></p>
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
@@ -1384,6 +1408,56 @@
       </tags>
   </entry>
   <entry>
+    <title>红豆寄相思</title>
+    <url>/post/aa22.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="相思"><a href="#相思" class="headerlink" title="相思"></a>相思</h1><p align="center">相思    【唐】 王维</p>
+
+<p align="center">红豆生南国，春来发几枝?</p>
+
+<p align="center">愿君多采撷，此物最相思。</p>
+
+<div class="bilibili">
+  <iframe src="//player.bilibili.com/player.html?aid=12370033&bvid=BV1Kx411i7Uq&cid=20372798&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+<p>该动画以王维的同名诗为创作背景，讲述了嘉定名士王初桐和发小六娘青梅竹马、红豆定情却无缘厮守的爱情故事。</p>
+<h1 id="王初桐的坎坷情路"><a href="#王初桐的坎坷情路" class="headerlink" title="王初桐的坎坷情路"></a>王初桐的坎坷情路</h1><p>清代常居于嘉定的宝山文人毛大瀛（1735–1800）写过一本《戏鸥居词话》，书中不经意间曝光了王初桐年轻时一段凄婉的风流佳话。</p>
+<p>据说，嘉定有个六娘，六娘姓陈，名湘苹，字采于，长得文静美丽，喜爱诗文书画，弹得一手好参琴，是个名门之女。陈家与王初桐是近邻，王初桐长得英俊潇洒，玉树临风，又很聪明，两人从小青梅竹马。</p>
+<p>但王初桐“从幼，家赤贫”，而陈家则是富裕人家，陈家父母爱富厌贫，他们不愿将六娘许配给王家。后来，由父母作主，六娘许配给了一家富户，但六娘不喜欢这门婚事，更不满意那个轻浮的丈夫，对王初桐恋恋不舍，无比懊伤。</p>
+<p>经历了感情重挫的王初桐，倍加发愤攻读，中秀才后十九年，他曾多次参加乡试，无奈屡试不中，名落孙山，科举道路艰难。于是王“家益贫”，“人咸笑之”，王初桐决定北上交游深造，寻找机会。</p>
+<p>清乾隆四十一年（1776），清廷平定四川大小金川叛乱，皇帝特开科召试，以示对士子们的恩宠。四十八岁的王初桐应试，被列为二等，授予四库全书馆的誊录官。后来在山东为官，历署新城、淄川、平阴、寿光知县，又做过宁海州同知。</p>
+<p>他为官政简刑清，颇得*。在济南任上，深受山东巡抚伊江阿的赏识，大学士阮元称他为“江左人才原第一，济南名士更无双”。此时，王初桐也成家，夫人贤惠，只是他心中常念着六娘，与夫人感情不深，平平淡淡而已。</p>
+<p>嘉庆四年（1799），王初桐已入暮年，思乡心切，遂致仕还乡，同僚们苦留不止，吏民环跪攀辕，无不流泪相送。他回故乡后，隐居在方泰，著书立说。</p>
+<p>再说六娘，因丈夫游手好闲、放浪无检、吃喝嫖赌，很快把家产挥霍殆尽。夫家败了，六娘“号恸欲绝”，来到“勾栏”（宋、元时的杂技演艺场所），卖唱卖笑不卖身。再后来，就变成了只卖身，不卖艺。但六娘毕竟是名门之女，属知识女性。</p>
+<p>数年之后，有了一些积蓄，很快便“上岸”离开了妓院。她独自一人，居槎水（即槎溪，也是南翔镇别称）边。屋顶漏雨，墙上发霉，地上生苔，她“卖珠补屋，种竹浇花”。在“幽窗曲几之下，熏炉茗碗之间”读读书，看看景，纺纺纱，活动活动，有花有菜、有谷有棉、有茶有酒、有景有诗、有琴有乐，清静自在，像个书生。粗茶淡饭倒也养人，不久便扫除了脸上的憔悴，出落得十分丰腴红润，布衣素妆别有一番风姿。</p>
+<p>方泰与南翔相距不远，一次，王初桐舟行于槎水之上，忽然听到熟悉而忧郁的琴声，王初桐即命船夫靠岸，进得河浜屋内，果然是六娘，两人各自倾诉离别后的遭遇。此时，六娘仍孑然一人，而王初桐已儿女成群，再结夫妻已无可能。两人便以兄妹相称，王初桐暗中资助六娘银两，常来常往，谈文论诗，十分默契，对闲人议论，全不在乎。</p>
+<p>六娘为了报答王初桐的厚恩，自画了一幅像赠给初桐，画上写有“天寒翠袖薄，日暮倚修竹”的题词。这是唐朝诗人杜甫《佳人》的诗句，指的是佳人孤高、绝世独立的意思。王初桐在上面署上四个字–“绝代佳人”，成为一幅珠联璧合之作。</p>
+<p>当时嘉定的文人圈中，有许多人都看到这幅画，有同情者纷纷在上面作诗题词，其中没有一句指责初桐和六娘。这幅画一直流传到京师。京师也有许多文人雅士看到过这幅画，他们都为六娘的美貌和才华倾倒，也为王、陈的这场爱情悲剧唏嘘。</p>
+<p>毛大瀛在记载这件事时，</p>
+<p>似乎还有更多缠绵的故事未叙，</p>
+<p>曾写道：“竹所寄怀之词甚多，不及备载。”</p>
+]]></content>
+      <tags>
+        <tag>视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>答案</title>
+    <url>/post/3e0e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note primary">
+             📚    🚀   📑 🛠 ⚔️ ❓ ⚡️ ✨ 🤞  🦋 📖 
+</div>
+<p align='center'>人生百态，各有答案</p>
+
+<div class="bilibili">
+  <iframe src="//player.bilibili.com/player.html?aid=711411920&bvid=BV1wD4y1D7ni&cid=215046967&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+]]></content>
+      <tags>
+        <tag>视频</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>画廊制作</title>
     <url>/post/94a8.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="建立相册经历"><a href="#建立相册经历" class="headerlink" title="建立相册经历"></a>建立相册经历</h1><p>本人比较轴，为了建立博客相册，在百度、360等浏览器上找了多种方法，也试了很多方法，但是多于不太懂前端的人来说，即使这种方法失败了，也不知道原因。但是建立相册的决心不倒，我花了四天的时间一直捣鼓这个东西终于找到了下面这种方法，但是我依葫芦画瓢做了一番，发现还是不能实现，于是稍微改了其中一些代码，总算是完成了(ಥ _ ಥ)(ಥ _ ಥ)</p>
@@ -1451,69 +1525,6 @@
       </tags>
   </entry>
   <entry>
-    <title>答案</title>
-    <url>/post/3e0e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note primary">
-             📚    🚀   📑 🛠 ⚔️ ❓ ⚡️ ✨ 🤞  🦋 📖 
-</div>
-<p align='center'>人生百态，各有答案</p>
-
-<div class="bilibili">
-  <iframe src="//player.bilibili.com/player.html?aid=711411920&bvid=BV1wD4y1D7ni&cid=215046967&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-]]></content>
-      <tags>
-        <tag>视频</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>红豆寄相思</title>
-    <url>/post/aa22.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="相思"><a href="#相思" class="headerlink" title="相思"></a>相思</h1><p align="center">相思    【唐】 王维</p>
-
-<p align="center">红豆生南国，春来发几枝?</p>
-
-<p align="center">愿君多采撷，此物最相思。</p>
-
-<div class="bilibili">
-  <iframe src="//player.bilibili.com/player.html?aid=12370033&bvid=BV1Kx411i7Uq&cid=20372798&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-<p>该动画以王维的同名诗为创作背景，讲述了嘉定名士王初桐和发小六娘青梅竹马、红豆定情却无缘厮守的爱情故事。</p>
-<h1 id="王初桐的坎坷情路"><a href="#王初桐的坎坷情路" class="headerlink" title="王初桐的坎坷情路"></a>王初桐的坎坷情路</h1><p>清代常居于嘉定的宝山文人毛大瀛（1735–1800）写过一本《戏鸥居词话》，书中不经意间曝光了王初桐年轻时一段凄婉的风流佳话。</p>
-<p>据说，嘉定有个六娘，六娘姓陈，名湘苹，字采于，长得文静美丽，喜爱诗文书画，弹得一手好参琴，是个名门之女。陈家与王初桐是近邻，王初桐长得英俊潇洒，玉树临风，又很聪明，两人从小青梅竹马。</p>
-<p>但王初桐“从幼，家赤贫”，而陈家则是富裕人家，陈家父母爱富厌贫，他们不愿将六娘许配给王家。后来，由父母作主，六娘许配给了一家富户，但六娘不喜欢这门婚事，更不满意那个轻浮的丈夫，对王初桐恋恋不舍，无比懊伤。</p>
-<p>经历了感情重挫的王初桐，倍加发愤攻读，中秀才后十九年，他曾多次参加乡试，无奈屡试不中，名落孙山，科举道路艰难。于是王“家益贫”，“人咸笑之”，王初桐决定北上交游深造，寻找机会。</p>
-<p>清乾隆四十一年（1776），清廷平定四川大小金川叛乱，皇帝特开科召试，以示对士子们的恩宠。四十八岁的王初桐应试，被列为二等，授予四库全书馆的誊录官。后来在山东为官，历署新城、淄川、平阴、寿光知县，又做过宁海州同知。</p>
-<p>他为官政简刑清，颇得*。在济南任上，深受山东巡抚伊江阿的赏识，大学士阮元称他为“江左人才原第一，济南名士更无双”。此时，王初桐也成家，夫人贤惠，只是他心中常念着六娘，与夫人感情不深，平平淡淡而已。</p>
-<p>嘉庆四年（1799），王初桐已入暮年，思乡心切，遂致仕还乡，同僚们苦留不止，吏民环跪攀辕，无不流泪相送。他回故乡后，隐居在方泰，著书立说。</p>
-<p>再说六娘，因丈夫游手好闲、放浪无检、吃喝嫖赌，很快把家产挥霍殆尽。夫家败了，六娘“号恸欲绝”，来到“勾栏”（宋、元时的杂技演艺场所），卖唱卖笑不卖身。再后来，就变成了只卖身，不卖艺。但六娘毕竟是名门之女，属知识女性。</p>
-<p>数年之后，有了一些积蓄，很快便“上岸”离开了妓院。她独自一人，居槎水（即槎溪，也是南翔镇别称）边。屋顶漏雨，墙上发霉，地上生苔，她“卖珠补屋，种竹浇花”。在“幽窗曲几之下，熏炉茗碗之间”读读书，看看景，纺纺纱，活动活动，有花有菜、有谷有棉、有茶有酒、有景有诗、有琴有乐，清静自在，像个书生。粗茶淡饭倒也养人，不久便扫除了脸上的憔悴，出落得十分丰腴红润，布衣素妆别有一番风姿。</p>
-<p>方泰与南翔相距不远，一次，王初桐舟行于槎水之上，忽然听到熟悉而忧郁的琴声，王初桐即命船夫靠岸，进得河浜屋内，果然是六娘，两人各自倾诉离别后的遭遇。此时，六娘仍孑然一人，而王初桐已儿女成群，再结夫妻已无可能。两人便以兄妹相称，王初桐暗中资助六娘银两，常来常往，谈文论诗，十分默契，对闲人议论，全不在乎。</p>
-<p>六娘为了报答王初桐的厚恩，自画了一幅像赠给初桐，画上写有“天寒翠袖薄，日暮倚修竹”的题词。这是唐朝诗人杜甫《佳人》的诗句，指的是佳人孤高、绝世独立的意思。王初桐在上面署上四个字–“绝代佳人”，成为一幅珠联璧合之作。</p>
-<p>当时嘉定的文人圈中，有许多人都看到这幅画，有同情者纷纷在上面作诗题词，其中没有一句指责初桐和六娘。这幅画一直流传到京师。京师也有许多文人雅士看到过这幅画，他们都为六娘的美貌和才华倾倒，也为王、陈的这场爱情悲剧唏嘘。</p>
-<p>毛大瀛在记载这件事时，</p>
-<p>似乎还有更多缠绵的故事未叙，</p>
-<p>曾写道：“竹所寄怀之词甚多，不及备载。”</p>
-]]></content>
-      <tags>
-        <tag>视频</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly脚底自定义标签</title>
-    <url>/post/708f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>我们找到<code>\butterfly\source\css\_global</code>下的<code>function.styl</code>文件,任意位置添加代码</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*底部信息*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> &#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">text-shadow</span>: none;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#abbac3</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">12px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.badge-subject</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#4d4d4d</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">4px</span> <span class="number">4px</span> <span class="number">4px</span> <span class="number">6px</span>;</span><br><span class="line">    <span class="attribute">border-top-left-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-left-radius</span>: <span class="number">4px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.badge-value</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">4px</span> <span class="number">6px</span> <span class="number">4px</span> <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">4px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-blue</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#007ec6</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-brightgreen</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#4dc820</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-orange</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: orange;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-gradient</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(to right,#<span class="number">3</span>ca5f6,#a86af9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-blueviolet</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#8833d7</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>找到<code>butterfly\layout\includes</code>下的<code>footer.pug</code>文件,添加下面代码即可</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  if theme.footer.custom_text</span><br><span class="line">    .footer_custom_text!&#x3D;&#96;$&#123;theme.footer.custom_text&#125;&#96; </span><br><span class="line">-------------------------------------------------------------------</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;hexo.io&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;由 Hexo 强力驱动&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Powered</span><br><span class="line">      span.badge-value.bg-blue Hexo</span><br><span class="line">  </span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;github.com&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;静态网页托管于 GitHub Pages 和 Coding Pages&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Hosted</span><br><span class="line">      span.badge-value.bg-brightgreen GitHub &amp; Coding</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;www.jsdelivr.com&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;jsDelivr 提供 CDN 加速服务&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject CDN</span><br><span class="line">      span.badge-value.bg-orange jsDelivr</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject</span><br><span class="line">        i.fa.fa-copyright</span><br><span class="line">      span.badge-value.bg-gradient BY-NC-SA 4.0</span><br><span class="line"></span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;github.com&#x2F;jerryc127&#x2F;hexo-theme-butterfly&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;主题&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Theme</span><br><span class="line">      span.badge-value.bg-blueviolet Butterfly  </span><br><span class="line">--------------------------------------------------------------------------</span><br><span class="line">  if theme.footer.ICP.enable</span><br><span class="line">    .icp</span><br><span class="line">      a(href&#x3D;theme.footer.ICP.url)</span><br><span class="line">        if theme.footer.ICP.icon</span><br><span class="line">          img.icp-icon(src&#x3D;url_for(theme.footer.ICP.icon))</span><br><span class="line">        span&#x3D;theme.footer.ICP.text</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>自定义“引用”板块</title>
     <url>/post/3a4f.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="自定义“引用”板块"><a href="#自定义“引用”板块" class="headerlink" title="自定义“引用”板块"></a>自定义“引用”板块</h1><h2 id="启发"><a href="#启发" class="headerlink" title="启发"></a>启发</h2><hr>
@@ -1541,6 +1552,19 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly脚底自定义标签</title>
+    <url>/post/708f.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>我们找到<code>\butterfly\source\css\_global</code>下的<code>function.styl</code>文件,任意位置添加代码</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*底部信息*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> &#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">text-shadow</span>: none;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#abbac3</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">12px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.badge-subject</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#4d4d4d</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">4px</span> <span class="number">4px</span> <span class="number">4px</span> <span class="number">6px</span>;</span><br><span class="line">    <span class="attribute">border-top-left-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-left-radius</span>: <span class="number">4px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.badge-value</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">4px</span> <span class="number">6px</span> <span class="number">4px</span> <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">4px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-blue</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#007ec6</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-brightgreen</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#4dc820</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-orange</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: orange;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-gradient</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(to right,#<span class="number">3</span>ca5f6,#a86af9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.github-badge</span> <span class="selector-class">.bg-blueviolet</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#8833d7</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>找到<code>butterfly\layout\includes</code>下的<code>footer.pug</code>文件,添加下面代码即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  if theme.footer.custom_text</span><br><span class="line">    .footer_custom_text!&#x3D;&#96;$&#123;theme.footer.custom_text&#125;&#96; </span><br><span class="line">-------------------------------------------------------------------</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;hexo.io&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;由 Hexo 强力驱动&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Powered</span><br><span class="line">      span.badge-value.bg-blue Hexo</span><br><span class="line">  </span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;github.com&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;静态网页托管于 GitHub Pages 和 Coding Pages&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Hosted</span><br><span class="line">      span.badge-value.bg-brightgreen GitHub &amp; Coding</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;www.jsdelivr.com&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;jsDelivr 提供 CDN 加速服务&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject CDN</span><br><span class="line">      span.badge-value.bg-orange jsDelivr</span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject</span><br><span class="line">        i.fa.fa-copyright</span><br><span class="line">      span.badge-value.bg-gradient BY-NC-SA 4.0</span><br><span class="line"></span><br><span class="line">  .github-badge</span><br><span class="line">    a(style&#x3D;&#39;color:#fff&#39;, rel&#x3D;&#39;external nofollow noopener noreferrer&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;github.com&#x2F;jerryc127&#x2F;hexo-theme-butterfly&#39;, target&#x3D;&#39;_blank&#39;, title&#x3D;&#39;主题&#39;, data-pjax-state&#x3D;&#39;&#39;)</span><br><span class="line">      span.badge-subject Theme</span><br><span class="line">      span.badge-value.bg-blueviolet Butterfly  </span><br><span class="line">--------------------------------------------------------------------------</span><br><span class="line">  if theme.footer.ICP.enable</span><br><span class="line">    .icp</span><br><span class="line">      a(href&#x3D;theme.footer.ICP.url)</span><br><span class="line">        if theme.footer.ICP.icon</span><br><span class="line">          img.icp-icon(src&#x3D;url_for(theme.footer.ICP.icon))</span><br><span class="line">        span&#x3D;theme.footer.ICP.text</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
