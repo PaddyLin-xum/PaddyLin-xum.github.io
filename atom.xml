@@ -6,7 +6,7 @@
   <link href="http://www.paddylin.top/atom.xml" rel="self"/>
   
   <link href="http://www.paddylin.top/"/>
-  <updated>2020-09-07T11:39:39.804Z</updated>
+  <updated>2020-09-07T11:42:37.615Z</updated>
   <id>http://www.paddylin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.paddylin.top/post/63e69777.html"/>
     <id>http://www.paddylin.top/post/63e69777.html</id>
     <published>2020-09-07T11:11:20.318Z</published>
-    <updated>2020-09-07T11:39:39.804Z</updated>
+    <updated>2020-09-07T11:42:37.615Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p>Picup是基于Picee谷歌插件改造而来的，它是与Github配合使用的图片上传器，即Github图床。</p><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/picup22.png"></p><h1 id="博客于部署"><a href="#博客于部署" class="headerlink" title="博客于部署"></a>博客于部署</h1><p>你们可以在这里下载Picup项目的<code>html</code></p><p><a href="https://github.com/PaddyLin-xum/picup" class="LinkCard">Picup</a></p><p>然后将<code>htnl</code>中的js，css等链接替换为Github中相应的jsDeliver加速过文件的链接，对于在博客上部署<code>html</code>，相信对于大家来说都不难，如果你嫌麻烦，你也可以用我搭建好的</p><p><a href="https://paddylin.gitee.io/lin/" class="LinkCard">上传器</a></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ul><li>两种登录方法</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku@master/img/picup2.png"></p><ul><li>使用步骤</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/PaddyLin-xum/photo@master/20190305165002_79290.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/PaddyLin-xum/tuku//picup3.png"></p>]]></content>
     
