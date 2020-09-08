@@ -3238,6 +3238,7 @@ blockquote footer cite:before {
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
+  backdrop-filter: blur(20px) saturate(120%) !important;
 }
 .layout_post > #post:hover,
 .layout_page > div:first-child:not(.recent-posts):hover {
@@ -3292,6 +3293,7 @@ blockquote footer cite:before {
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
+  backdrop-filter: blur(20px) saturate(120%) !important;
 }
 @media screen and (max-width: 768px) {
   #recent-posts > .recent-post-item {
@@ -3486,6 +3488,7 @@ blockquote footer cite:before {
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
+  backdrop-filter: blur(20px) saturate(120%) !important;
 }
 #aside_content .card-widget:hover {
   -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
@@ -4245,6 +4248,7 @@ blockquote footer cite:before {
   height: 100%;
   background-color: rgba(0,0,0,0.5);
   content: '';
+  backdrop-filter: blur(20px) saturate(120%) !important;
 }
 #page-header.post-bg #post-info {
   position: absolute;
@@ -4351,9 +4355,10 @@ _:future,
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
-  background: #473946;
+  background: rgba(45,53,67,0.89);
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
+  backdrop-filter: blur(20px) saturate(120%) !important;
 }
 @media screen and (max-width: 768px) {
   #nav {
@@ -4390,7 +4395,7 @@ _:future,
   position: fixed;
   top: -62px;
   z-index: 91;
-  background: #473946;
+  background: rgba(45,53,67,0.89);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   -webkit-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
@@ -4398,6 +4403,7 @@ _:future,
   -o-transition: -o-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -ms-transition: -ms-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  backdrop-filter: blur(20px) saturate(120%) !important;
 }
 #nav.fixed a,
 #nav.fixed #site-name,
@@ -4478,7 +4484,7 @@ _:future,
   margin-top: 8px;
   padding: 0;
   width: max-content;
-  background-color: #473946;
+  background-color: rgba(45,53,67,0.89);
   -webkit-box-shadow: 0 5px 20px -4px rgba(0,0,0,0.5);
   box-shadow: 0 5px 20px -4px rgba(0,0,0,0.5);
   -webkit-animation: sub_menus 0.3s 0.1s ease both;
@@ -4486,6 +4492,7 @@ _:future,
   -o-animation: sub_menus 0.3s 0.1s ease both;
   -ms-animation: sub_menus 0.3s 0.1s ease both;
   animation: sub_menus 0.3s 0.1s ease both;
+  backdrop-filter: blur(20px) saturate(120%) !important;
 }
 #nav .menus_items .menus_item .menus_item_child:before {
   position: absolute;
@@ -5767,7 +5774,7 @@ img {
   bottom: 20px;
   left: 16px;
   z-index: 100;
-  color: var(--sidebar-icon-color);
+  color: #fff;
   font-size: 16px;
   cursor: pointer;
   -webkit-transition: all 0.2s;
@@ -5795,7 +5802,7 @@ img {
   filter: alpha(opacity=90);
 }
 #sidebar.tocOpenPc > #toggle-sidebar {
-  color: #99a9bf;
+  color: #fff;
   -webkit-transform: rotateZ(180deg);
   -moz-transform: rotateZ(180deg);
   -o-transform: rotateZ(180deg);
