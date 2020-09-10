@@ -7360,17 +7360,9 @@ button.toast-close-button {
 
 .btn-primary {
     border-radius: 25px;
-    display: inline-block;
-    padding: 14px 28px 13px 28px;
     line-height: 1;
-    border: 2px solid #777;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #777;
     font-family: Noto Serif SC;
-}
-.btn-xs {
-    padding: 8px 24px;
-    font-size: 14px;
 }
